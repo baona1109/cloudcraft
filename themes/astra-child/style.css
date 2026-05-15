@@ -357,6 +357,7 @@ body {
     gap: 8px;
     text-decoration: none;
     grid-column: 1;
+    width: fit-content;
 }
 .cc-logo-text {
     font-size: 16px;
