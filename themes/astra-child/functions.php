@@ -4,6 +4,149 @@
  * functions.php
  */
 
+// ── 5. Primary navigation menu setup (runs once via admin_init) ──────────────
+add_action( 'admin_init', 'cloudcraft_setup_primary_menu' );
+function cloudcraft_setup_primary_menu() {
+    if ( get_option( 'cloudcraft_menu_v1' ) ) {
+        return;
+    }
+
+    $menu_name = 'CloudCraft Primary';
+    $existing  = wp_get_nav_menu_object( $menu_name );
+    $menu_id   = $existing ? $existing->term_id : wp_create_nav_menu( $menu_name );
+    if ( is_wp_error( $menu_id ) ) {
+        return;
+    }
+
+    // Wipe existing items so re-runs stay clean
+    $old_items = wp_get_nav_menu_items( $menu_id );
+    if ( $old_items ) {
+        foreach ( $old_items as $item ) {
+            wp_delete_post( $item->ID, true );
+        }
+    }
+
+    // Home
+    wp_update_nav_menu_item( $menu_id, 0, array(
+        'menu-item-title'  => __( 'Home', 'astra-child' ),
+        'menu-item-type'   => 'custom',
+        'menu-item-url'    => home_url( '/' ),
+        'menu-item-status' => 'publish',
+    ) );
+
+    // Category items with dropdowns for child categories
+    $cat_items = array(
+        'AI'     => 'AI',
+        'Linux'  => 'Linux',
+        'DevOps' => 'DevOps',
+    );
+
+    foreach ( $cat_items as $search => $label ) {
+        $cat = get_term_by( 'name', $search, 'category' );
+        if ( ! $cat ) {
+            $cats = get_terms( array( 'taxonomy' => 'category', 'search' => $search, 'hide_empty' => false ) );
+            $cat  = ! empty( $cats ) ? $cats[0] : null;
+        }
+
+        if ( $cat ) {
+            $parent_item_id = wp_update_nav_menu_item( $menu_id, 0, array(
+                'menu-item-title'     => $label,
+                'menu-item-type'      => 'taxonomy',
+                'menu-item-object'    => 'category',
+                'menu-item-object-id' => $cat->term_id,
+                'menu-item-status'    => 'publish',
+            ) );
+
+            // Child categories → dropdown
+            $children = get_terms( array(
+                'taxonomy'   => 'category',
+                'parent'     => $cat->term_id,
+                'hide_empty' => true,
+            ) );
+            foreach ( $children as $child ) {
+                wp_update_nav_menu_item( $menu_id, 0, array(
+                    'menu-item-title'     => $child->name,
+                    'menu-item-type'      => 'taxonomy',
+                    'menu-item-object'    => 'category',
+                    'menu-item-object-id' => $child->term_id,
+                    'menu-item-parent-id' => $parent_item_id,
+                    'menu-item-status'    => 'publish',
+                ) );
+            }
+        } else {
+            // Fallback: custom link
+            wp_update_nav_menu_item( $menu_id, 0, array(
+                'menu-item-title'  => $label,
+                'menu-item-type'   => 'custom',
+                'menu-item-url'    => home_url( '/category/' . strtolower( $search ) . '/' ),
+                'menu-item-status' => 'publish',
+            ) );
+        }
+    }
+
+    // About us — find the page or fall back to /about/
+    $about_query = new WP_Query( array(
+        'post_type'      => 'page',
+        'post_status'    => 'publish',
+        'posts_per_page' => 1,
+        'title'          => 'About',
+    ) );
+    $about_id = $about_query->have_posts() ? $about_query->posts[0]->ID : 0;
+
+    if ( $about_id ) {
+        wp_update_nav_menu_item( $menu_id, 0, array(
+            'menu-item-title'     => __( 'About us', 'astra-child' ),
+            'menu-item-type'      => 'post_type',
+            'menu-item-object'    => 'page',
+            'menu-item-object-id' => $about_id,
+            'menu-item-status'    => 'publish',
+        ) );
+    } else {
+        wp_update_nav_menu_item( $menu_id, 0, array(
+            'menu-item-title'  => __( 'About us', 'astra-child' ),
+            'menu-item-type'   => 'custom',
+            'menu-item-url'    => home_url( '/about/' ),
+            'menu-item-status' => 'publish',
+        ) );
+    }
+
+    // Assign to Astra primary location
+    $locations            = get_theme_mod( 'nav_menu_locations', array() );
+    $locations['primary'] = $menu_id;
+    set_theme_mod( 'nav_menu_locations', $locations );
+
+    update_option( 'cloudcraft_menu_v1', true );
+}
+
+
+// ── 6. Hero banner on blog index ─────────────────────────────────────────────
+add_action( 'astra_primary_content_top', 'cloudcraft_hero_banner' );
+function cloudcraft_hero_banner() {
+    if ( ! is_home() ) {
+        return;
+    }
+    ?>
+    <div class="cc-hero">
+        <div class="cc-hero-inner">
+            <span class="cc-hero-eyebrow"><?php esc_html_e( 'Tech & DevOps Blog', 'astra-child' ); ?></span>
+            <h1 class="cc-hero-title"><?php esc_html_e( 'Build, Deploy & Learn with CloudCraft', 'astra-child' ); ?></h1>
+            <p class="cc-hero-sub"><?php esc_html_e( 'Practical guides on Linux, DevOps, cloud infrastructure, and modern tools — written for humans.', 'astra-child' ); ?></p>
+        </div>
+    </div>
+    <?php
+}
+
+
+// ── 7. Footer copyright text ─────────────────────────────────────────────────
+add_filter( 'option_astra-settings', 'cloudcraft_footer_copyright_text' );
+function cloudcraft_footer_copyright_text( $settings ) {
+    if ( is_array( $settings ) ) {
+        $settings['footer-copyright-editor'] = 'Built with &#9729; and coffee';
+    }
+    return $settings;
+}
+
+
 // ── 0. Enqueue parent + child stylesheets ────────────────────────────────────
 add_action( 'wp_enqueue_scripts', 'cloudcraft_enqueue_styles' );
 function cloudcraft_enqueue_styles() {
