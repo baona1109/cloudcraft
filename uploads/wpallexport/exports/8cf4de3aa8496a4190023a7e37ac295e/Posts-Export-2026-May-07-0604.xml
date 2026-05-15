@@ -1,0 +1,2553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<id><![CDATA[90]]></id>
+		<title><![CDATA["Audit MySQL User action bằng Mcafee Audit Plugin"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[audit mysql user actions]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[92]]></id>
+		<title><![CDATA["Bên trong VNG Zing Database sẽ có gì"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[vng zing database thông tin]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[93]]></id>
+		<title><![CDATA["Coi thả ga ebook với tài khoản ACM (20$/năm)"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[tài khoản safari books giá rẻ]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[94]]></id>
+		<title><![CDATA["Containers - Một cách tiếp cận mới của ảo hóa"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[công nghệ ảo hóa với container]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[95]]></id>
+		<title><![CDATA["Cài đặt và cấu hình TICK Stack"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cài đặt tick stack trên centos]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[96]]></id>
+		<title><![CDATA["Cấu hình Azure Application Gateway Redirection"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cấu hình azure application gateway redirect]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[97]]></id>
+		<title><![CDATA["Cấu hình MySQL Replication GTID Master-Master"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[mysql replication master master]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[98]]></id>
+		<title><![CDATA["ETL vs ELT (phần 1): Xu hướng Data Warehouse"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[etl vs elt comparison]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[99]]></id>
+		<title><![CDATA["Elastic Cloud on Kubernetes (ECK)"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[elastic cloud on kubernetes tutorial]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[100]]></id>
+		<title><![CDATA["Elasticsearch lưu ý khi config production environment"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[lưu ý cấu hình elasticsearch production]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[101]]></id>
+		<title><![CDATA["Giải thích tên dịch vụ trên Amazon Web Service (AWS)"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[tên dịch vụ aws]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[102]]></id>
+		<title><![CDATA["Giới thiệu các thông số cấu hình MySQL"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cấu hình cơ bản mysql]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[103]]></id>
+		<title><![CDATA["Giới thiệu một số thuật toán TCP Congestion Control"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[thuật toán kiểm soát tắt nghẽn tcp]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[104]]></id>
+		<title><![CDATA["Giới thiệu về IPtables"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cách sử dụng iptables]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[105]]></id>
+		<title><![CDATA["Giới thiệu về LVM - Logical Volume Management"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[lvm logical volume management hướng dẫn]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[106]]></id>
+		<title><![CDATA["Giới thiệu về SSH"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cách sử dụng ssh trong linux]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[107]]></id>
+		<title><![CDATA["HƯỚNG DẪN CHUYỂN ĐỔI CENTOS 8 SANG ROCKY LINUX"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[chuyển đổi từ centos 8 sang rocky linux]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[108]]></id>
+		<title><![CDATA["HƯỚNG DẪN CÀI ĐẶT PORTAINER ĐỂ QUẢN LÝ DOCKER HOST"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cài đặt portainer trên linux]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[109]]></id>
+		<title><![CDATA["HƯỚNG DẪN CÀI ĐẶT WHATWAF"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cài đặt whatwaf trên kali linux]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[110]]></id>
+		<title><![CDATA["Hướng Dẫn Xử Lý Tình Trạng Full Inode"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cách xử lý full inode]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[111]]></id>
+		<title><![CDATA["Hướng dẫn Upgrade Kernel Linux."]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[upgrade linux kernel guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[113]]></id>
+		<title><![CDATA["Hướng dẫn bật tính năng log trên haproxy"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[bật log haproxy hướng dẫn]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[114]]></id>
+		<title><![CDATA["Hướng dẫn chít game Clicker Heroes - Android"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cheat clicker heroes android]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[115]]></id>
+		<title><![CDATA["Hướng dẫn chặn toàn bộ IP của một quốc gia trên Windows"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[chặn ip của quốc gia trên windows]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[116]]></id>
+		<title><![CDATA["Hướng dẫn cài đặt Apache Guacamole"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cài đặt apache guacamole]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[117]]></id>
+		<title><![CDATA["Hướng dẫn cài đặt Apache từ source"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cài đặt apache từ source]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[118]]></id>
+		<title><![CDATA["Hướng dẫn cài đặt Gitbucket trên CentOS 7"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cài đặt gitbucket centos 7]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[119]]></id>
+		<title><![CDATA["Hướng dẫn cài đặt Nginx từ source"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cài đặt nginx từ source]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[120]]></id>
+		<title><![CDATA["Hướng dẫn cài đặt PHP từ source"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cài đặt php từ source]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[121]]></id>
+		<title><![CDATA["Hướng dẫn cài đặt Redmine trên CentOS"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cài đặt redmine trên centos]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[122]]></id>
+		<title><![CDATA["Hướng dẫn cài đặt Teleport làm remote SSH"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cài đặt teleport remote ssh]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[123]]></id>
+		<title><![CDATA["Hướng dẫn cài đặt phiên bản Docker bất kì trên Linux"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cài đặt docker trên linux]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[124]]></id>
+		<title><![CDATA["Hướng dẫn cài đặt python và virtualenv"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cài đặt python virtualenv centos]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[125]]></id>
+		<title><![CDATA["Hướng dẫn cài đặt và cấu hình Memcached trên CentOS"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cài đặt memcached trên centos]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[126]]></id>
+		<title><![CDATA["Hướng dẫn cài đặt và mount NFS trên CentOS 7"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cài đặt nfs trên centos 7]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[127]]></id>
+		<title><![CDATA["Hướng dẫn cài đặt và sử dụng pure-ftpd để tạo tài khoản ftp"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cài đặt pure-ftpd ftp]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[128]]></id>
+		<title><![CDATA["Hướng dẫn cấu hình Cache cho Nginx"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cấu hình cache nginx]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[129]]></id>
+		<title><![CDATA["Hướng dẫn cấu hình Max File Descriptor"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cách cấu hình max file descriptor]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[130]]></id>
+		<title><![CDATA["Hướng dẫn cấu hình MySQL replication Master-Slave"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[mysql replication master slave guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[131]]></id>
+		<title><![CDATA["Hướng dẫn cấu hình NTP"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cấu hình ntp server trên centos]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[132]]></id>
+		<title><![CDATA["Hướng dẫn cấu hình Nginx load balance"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cấu hình nginx load balancer]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[133]]></id>
+		<title><![CDATA["Hướng dẫn cấu hình chạy mô hình LAMP stack trên Directadmin"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cấu hình lamp stack directadmin]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[134]]></id>
+		<title><![CDATA["Hướng dẫn cấu hình keepalive connection cho Nginx"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cấu hình keepalive connection nginx]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[135]]></id>
+		<title><![CDATA["Hướng dẫn cấu hình virtual IP với keepalived"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cấu hình virtual ip keepalived]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[136]]></id>
+		<title><![CDATA["Hướng dẫn dùng tính năng submodule của Git"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cách sử dụng git submodule]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[137]]></id>
+		<title><![CDATA["Hướng dẫn giấu một folder trên Windows"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cách giấu folder trên windows]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[138]]></id>
+		<title><![CDATA["Hướng dẫn kiểm tra IOPS trên server Linux"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[kiểm tra iops server linux]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[139]]></id>
+		<title><![CDATA["Hướng dẫn kiểm tra trạng thái RAID"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[kiểm tra trạng thái raid]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[140]]></id>
+		<title><![CDATA["Hướng dẫn liệt kê danh sách domain của nginx"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[liệt kê domain trên nginx]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[141]]></id>
+		<title><![CDATA["Hướng dẫn reset password admin Grafana"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[reset grafana admin password]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[142]]></id>
+		<title><![CDATA["Hướng dẫn setup Prometheus + Grafana để monitor dịch vụ"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[setup prometheus grafana monitor]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[143]]></id>
+		<title><![CDATA["Hướng dẫn sử dụng Selenium"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[hướng dẫn sử dụng selenium với python]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[144]]></id>
+		<title><![CDATA["Hướng dẫn sử dụng mRemoteNG để Remote Desktop"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[hướng dẫn sử dụng mremoteng]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[145]]></id>
+		<title><![CDATA["Hướng dẫn thao tác với lệnh vi"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[hướng dẫn sử dụng lệnh vi]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[146]]></id>
+		<title><![CDATA["Hướng dẫn thay đổi port remote desktop"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[thay đổi port remote desktop]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[147]]></id>
+		<title><![CDATA["Hướng dẫn toàn tập về partition trên Linux"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[partition trên linux hướng dẫn]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[148]]></id>
+		<title><![CDATA["Hướng dẫn tạo chứng thực cơ bản nginx - http basic authentication"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[http basic authentication nginx]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[149]]></id>
+		<title><![CDATA["Hướng dẫn tối ưu Linux kernel"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[tối ưu hiệu năng linux kernel]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[150]]></id>
+		<title><![CDATA["Hướng dẫn tự động start dịch vụ trên Linux - Giới thiệu về các Init System (Phần 1)"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[tự động khởi động dịch vụ linux]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[151]]></id>
+		<title><![CDATA["Hướng dẫn update kernel linux trên CentOS bằng yum"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[update linux kernel centos]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[152]]></id>
+		<title><![CDATA["Hướng dẫn vô hiệu hóa giao thức SMB trên Windows server"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[vô hiệu hóa giao thức smb windows]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[153]]></id>
+		<title><![CDATA["ISASS.exe sử dụng nhiều băng thông"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[isass.exe tốn băng thông]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[154]]></id>
+		<title><![CDATA["Lập trình Bash Shell cơ bản - Phần 1"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[lập trình bash shell cơ bản]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[155]]></id>
+		<title><![CDATA["Moby Project - Công nghiệp hóa containers"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[moby project docker containers]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[156]]></id>
+		<title><![CDATA["MongoDB - Phần 1 Giới thiệu về MongoDB"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[giới thiệu về mongodb]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[157]]></id>
+		<title><![CDATA["Một lần đi lên mây - Dạo một vòng AWS Networking"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[aws networking basics]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[158]]></id>
+		<title><![CDATA["Những gì đã xảy ra khi boot một hệ thống Linux?"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[quá trình khởi động hệ thống linux]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[159]]></id>
+		<title><![CDATA["PHƯƠNG PHÁP LẬP KẾ HOẠCH SAO LƯU HIỆU QUẢ"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[lập kế hoạch sao lưu hiệu quả]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[160]]></id>
+		<title><![CDATA["Prometheus at Scale - Hướng dẫn sharding Prometheus"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[sharding prometheus guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[161]]></id>
+		<title><![CDATA["Prometheus at Scale - Tổng quan về Prometheus"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[prometheus monitoring overview]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[162]]></id>
+		<title><![CDATA["RÀ SOÁT LỖI & TỐI ƯU HÓA HỆ THỐNG SAO LƯU DOANH NGHIỆP"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[tối ưu hóa quy trình sao lưu]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[163]]></id>
+		<title><![CDATA["SAO LƯU: TRỨNG PHỤC SINH CỦA HỆ THỐNG DỮ LIỆU DOANH NGHIỆP"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[sao lưu và phục hồi dữ liệu doanh nghiệp]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[164]]></id>
+		<title><![CDATA["So sánh các phiên bản Windows server 2012"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[so sánh các phiên bản windows server 2012]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[165]]></id>
+		<title><![CDATA["Soft Delete của Azure Storage Blob: Trứng phục sinh của dữ liệu đã xóa"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[soft delete azure storage blob]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[166]]></id>
+		<title><![CDATA["Swap là gì? Tổng quan về swap"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[swap memory là gì]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[167]]></id>
+		<title><![CDATA["TRIỂN KHAI & ĐO LƯỜNG SAO LƯU & PHỤC HỒI"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cách triển khai sao lưu hiệu quả]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[168]]></id>
+		<title><![CDATA["Thế nào là MCSA, MCSE"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[microsoft certification exam guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[169]]></id>
+		<title><![CDATA["Tìm hiểu về MySQL"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[tìm hiểu mysql cơ sở dữ liệu]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[170]]></id>
+		<title><![CDATA["Tổng quan về Hyper-V"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[tìm hiểu về hyper-v]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[171]]></id>
+		<title><![CDATA["Tổng quan về PHP"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[tổng quan về php]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[172]]></id>
+		<title><![CDATA["Tự động đồng bộ 2 thư mục trên Windows"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[đồng bộ thư mục windows]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[173]]></id>
+		<title><![CDATA["Use Thinkpad T470 fingerprint on Ubuntu 16.04"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[thinkpad t470 fingerprint ubuntu guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[174]]></id>
+		<title><![CDATA["Xây dựng mạng lưới Etherum cá nhân bằng Docker Compose"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[xây dựng mạng lưới ethereum docker compose]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[175]]></id>
+		<title><![CDATA["[AWS] Hướng dẫn tạo VPC trên AWS"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[tạo vpc trên aws]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[176]]></id>
+		<title><![CDATA["[Ansible] Giới thiệu về Ansible"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[giới thiệu về ansible]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[177]]></id>
+		<title><![CDATA["[Ansible] Hướng dẫn sử dụng và quản lý Role trong Ansible"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[sử dụng ansible role hiệu quả]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[178]]></id>
+		<title><![CDATA["[Ansible] Quản trị Windows Server 2012 với Ansible - Phần 2"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[quản trị windows server ansible]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[179]]></id>
+		<title><![CDATA["[Ansible] Quản trị Windows Server 2012 với Ansible"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ansible cho windows server 2012]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[180]]></id>
+		<title><![CDATA["[LoadBalance] Giới thiệu LVS & IPVS"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cấu hình lvs với ipvs]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[181]]></id>
+		<title><![CDATA["[NFV] DPDK - Data Plane Development Kit"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[dpdk data plane development kit]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[182]]></id>
+		<title><![CDATA["[NFV] NFV và SDN"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[nfv và sdn so sánh]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[183]]></id>
+		<title><![CDATA["[NFV] Phần 1 - Giới thiệu về NFV"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[giới thiệu công nghệ nfv]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[184]]></id>
+		<title><![CDATA["[NFV] Phần 2 - Kiến trúc của NFV"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[kiến trúc nfv là gì]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[185]]></id>
+		<title><![CDATA["[NFV] SR-IOV"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[sr-iov virtualization technology]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[186]]></id>
+		<title><![CDATA["[Nhập môn Docker] Phần 1: Cài đặt Docker trên CentOS7"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cài đặt docker trên centos7]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[187]]></id>
+		<title><![CDATA["[Nhập môn Docker] Phần 2: Giới thiệu các kiểu lưu trữ dữ liệu trên Docker"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[các kiểu lưu trữ dữ liệu docker]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[188]]></id>
+		<title><![CDATA["[SCCM] Chuẩn bị triển khai SCCM"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[chuẩn bị triển khai sccm]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[189]]></id>
+		<title><![CDATA["[SCCM] Cài đặt SQL Server cho SCCM"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cài đặt sql server cho sccm]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[190]]></id>
+		<title><![CDATA["[SCCM] Giới thiệu SCCM"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[giới thiệu về sccm]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[191]]></id>
+		<title><![CDATA["[StorSimple] Cài đặt Device Update 5.0 cho StorSimple"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cài đặt storsimple device update]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[192]]></id>
+		<title><![CDATA["[StorSimple] Giới thiệu StorSimple"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[giải pháp lưu trữ hybrid storage]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[193]]></id>
+		<title><![CDATA["[dmidecode] Hướng dẫn kiểm tra thông tin server HP và Dell"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[dmidecode kiểm tra server hp dell]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[194]]></id>
+		<title><![CDATA["ownCloud trên Docker - Lưu trữ dữ liệu chia sẻ - Triển khai dễ dàng"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cài đặt owncloud trên docker]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[195]]></id>
+		<title><![CDATA["Đóng gói ứng dụng Flask với Docker"]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[đóng gói ứng dụng flask docker]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[410]]></id>
+		<title><![CDATA[Before Your Next Big Decision, Build This Claude Skill]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[building effective ai skills]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[412]]></id>
+		<title><![CDATA[How to Use Claude to Prepare for Job Interviews]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[using claude for job interviews]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[414]]></id>
+		<title><![CDATA[I Made Claude Smarter by Connecting It to NotebookLM. Here's How]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[connect notebooklm with claude]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[416]]></id>
+		<title><![CDATA[How to Learn Spanish (Or Any Language) Faster With Claude]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[learn spanish faster with ai]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[418]]></id>
+		<title><![CDATA[Everything You Get as an Artificial Corner Subscriber (Free & Paid)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[artificial corner subscription benefits]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[420]]></id>
+		<title><![CDATA[13 Most Important AI Concepts Every Claude User Should Know]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai concepts for using claude]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[422]]></id>
+		<title><![CDATA[Claude Opus 4.7 is here: What changed, how to get more out of it, and what might break in your workflow]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[claude opus 4.7 update guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[424]]></id>
+		<title><![CDATA[We Tried Claude in Excel. These Are The Best Use Cases]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[claude in excel use cases]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[426]]></id>
+		<title><![CDATA[We Used Claude Cowork to Pull Data From Any Website. Here's How]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[web scraping with claude cowork]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[428]]></id>
+		<title><![CDATA[The Best Way to Learn Claude (And Other AI Tools)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how to learn claude AI]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[449]]></id>
+		<title><![CDATA[We Tried 100 Claude Skills. These Are The Best]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best claude skills guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[451]]></id>
+		<title><![CDATA[How to Make Claude Write Like You]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[make ai write like you]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[453]]></id>
+		<title><![CDATA[Claude Cowork Just Got Projects. Here's How to Set It Up (So You Stop Re-Explaining Yourself)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how to set up projects in claude cowork]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[455]]></id>
+		<title><![CDATA[Claude Can Now Click, Type, and Navigate Your Computer Apps. Here Are My Best Use Cases]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[claude computer use capabilities]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[457]]></id>
+		<title><![CDATA[Before You Use Claude Cowork, Build This First]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[using claude cowork effectively]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[460]]></id>
+		<title><![CDATA[How to Run Claude Cowork Tasks From Your Phone]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[run tasks from phone with claude]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[462]]></id>
+		<title><![CDATA[How I Stopped Hitting Claude's Usage Limits]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how to avoid claude usage limits]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[464]]></id>
+		<title><![CDATA[The Claude Setup I Use To Be Ahead of 99% of Users]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how to set up claude properly]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[466]]></id>
+		<title><![CDATA[How I Turn My AI Chat History into Claude Code Projects Memory]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[turn chat history into projects]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[468]]></id>
+		<title><![CDATA[Before You Use Claude, Create This File]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[creating md files for ai use]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[470]]></id>
+		<title><![CDATA[How to Turn Claude into a 24/7 Employee (It Has Automated My Work)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[automate tasks with claude]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[472]]></id>
+		<title><![CDATA[How to move from ChatGPT to Claude (without starting from 0)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[move from chatgpt to claude]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[474]]></id>
+		<title><![CDATA[I Stopped Re-Explaining Everything to Claude Code. This CLAUDE.md File Does It for Me]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[using claude code effectively]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[476]]></id>
+		<title><![CDATA[You're Using Claude Wrong! Here's How to Be Ahead of 99% of Users]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[using claude effectively]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[478]]></id>
+		<title><![CDATA[Skills Are Claude Code's Cheat Code. Here's How to Use Them]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[using skills in claude code]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[480]]></id>
+		<title><![CDATA[Before You Use Claude Code, Learn This First]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[claude code project structure]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[482]]></id>
+		<title><![CDATA[How Claude Cowork Saves Me 100s of Hours (ChatGPT Can't Do This)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[claude cowork time saving tips]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[484]]></id>
+		<title><![CDATA[Why You Need Claude Code and How to Use It (Even With 0 Coding Experience)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how to use claude code]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[486]]></id>
+		<title><![CDATA[How We Learn (Any) Topic Faster with NotebookLM]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[learn any topic faster]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[488]]></id>
+		<title><![CDATA[Clawdbot Is Taking The AI Community by Storm. Here's What it is and How to Use It]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how to use clawdbot]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[491]]></id>
+		<title><![CDATA[Forget AI Tools. AI Agents Will Automate Your Life in 2026]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai agents for life automation]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[493]]></id>
+		<title><![CDATA[65% Stick to ChatGPT. Here's Why The Rest Are Switching to Gemini and Claude]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[switching from chatgpt to claude]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[495]]></id>
+		<title><![CDATA[How to Build Your Own $10,000 AI Mentor (For Free)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[build your own ai mentor]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[497]]></id>
+		<title><![CDATA[Duolingo couldn’t teach me Spanish in 2 years. AI did it in a few months]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[learn spanish with ai]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[499]]></id>
+		<title><![CDATA[Lesson #4: My System to Learn (Any) Language with AI]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[learn a language with ai]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[501]]></id>
+		<title><![CDATA[The Best ChatGPT Prompts You Need to Use in 2026]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best chatgpt prompts for 2026]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[503]]></id>
+		<title><![CDATA[A 15-Week Course to Master AI in 2026]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[15-week ai mastery course]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[505]]></id>
+		<title><![CDATA[Claude for Beginners: Complete Guide]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[claude chat for beginners]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[507]]></id>
+		<title><![CDATA[How to Create Professional Visuals with AI]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[create professional visuals with ai]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[509]]></id>
+		<title><![CDATA[The One AI Skill Worth Mastering (It Never Goes Obsolete)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[mastering ai as a thinking partner]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[511]]></id>
+		<title><![CDATA[Nano Banana Pro: Complete Guide]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[nano banana pro guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[513]]></id>
+		<title><![CDATA[Gemini 3 Is Now The #1 Model: Here's a Feature Everyone Should Use]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[gemini 3 standout features]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[515]]></id>
+		<title><![CDATA[The Best AI Tools for 2026: From Must-Have to Niche]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best ai tools for 2026]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[517]]></id>
+		<title><![CDATA[The Best ChatGPT Prompt Principles You Need to Follow]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best chatgpt prompt principles]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[519]]></id>
+		<title><![CDATA[Lesson #3: Improve Reading & Writing with AI]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[using ai for language learning]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[521]]></id>
+		<title><![CDATA[The Best Books to Increase Your AI Literacy in 2026 (+How I Use AI to Learn More From Books)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best books for ai literacy]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[523]]></id>
+		<title><![CDATA[From AI Slop to Robotics Slop]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai in household robotics]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[525]]></id>
+		<title><![CDATA[How to Go From AI Beginner to Pro in 2025]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how to master ai skills]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[527]]></id>
+		<title><![CDATA[How to Use AI with Excel (Reliably): From Generating Functions to Complete Reports]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[using ai in excel]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[529]]></id>
+		<title><![CDATA[ChatGPT Atlas: Complete Guide]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[chatgpt atlas browser guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[531]]></id>
+		<title><![CDATA[How to quickly optimize your prompts with ChatGPT]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[optimize prompts with chatgpt]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[533]]></id>
+		<title><![CDATA[I Took Google’s Prompt Engineering Course. Here’s What Actually Works]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[google prompt engineering course review]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[535]]></id>
+		<title><![CDATA[Deep Research: One of ChatGPT’s Best Features]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[chatgpt deep research guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[537]]></id>
+		<title><![CDATA[Sora 2 Prompting Guide]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[sora 2 prompting tips]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[539]]></id>
+		<title><![CDATA[Sora 2 may be the ChatGPT moment for video generation (and it's scary)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[sora 2 video generation impact]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[541]]></id>
+		<title><![CDATA[OpenAI's Sora 2 is amazing! Here's how I got early access]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how to get sora 2 invite code]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[543]]></id>
+		<title><![CDATA[I’m Happy I Canceled These AI Subscriptions]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[canceled ai subscription reviews]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[545]]></id>
+		<title><![CDATA[How to Go from ChatGPT Beginner to Pro]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[chatgpt beginner to pro guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[547]]></id>
+		<title><![CDATA[These iPhone Features Changed How I Use ChatGPT]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[iphone features for chatgpt]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[549]]></id>
+		<title><![CDATA[25 Things I've Learned About ChatGPT and Other AI Tools]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[lessons learned from using chatgpt]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[551]]></id>
+		<title><![CDATA[A simple tweak that helps me generate better images and edit them with ChatGPT]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[generate better images with chatgpt]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[553]]></id>
+		<title><![CDATA[AI Agents: The Next Big Thing After ChatGPT]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai agents for productivity]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[555]]></id>
+		<title><![CDATA[You're using the wrong ChatGPT-5 mode. Here's how to choose the right one]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[choose the right chatgpt mode]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[557]]></id>
+		<title><![CDATA[Perplexity AI: Complete Guide]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[perplexity ai complete guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[559]]></id>
+		<title><![CDATA[I Took Google's AI Course for Beginners. Here's a Summary in Plain English]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[google ai course summary]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[561]]></id>
+		<title><![CDATA[If You Use ChatGPT, You Need This Productivity App]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[productivity app for chatgpt]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[563]]></id>
+		<title><![CDATA[GPT-5 May Be Proof That Scaling Alone Can’t Save AI]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[gpt-5 scaling challenges]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[565]]></id>
+		<title><![CDATA[If You Like ChatGPT, You'll Love These AI Agents]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best ai agents for tasks]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[567]]></id>
+		<title><![CDATA[Before You Chat With a Meta AI Bot, Read This]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[chatting with meta ai bots]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[569]]></id>
+		<title><![CDATA[GPT-5 Prompting Techniques]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[gpt-5 prompting techniques]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[571]]></id>
+		<title><![CDATA[Why GPT-5 Feels Like a Step Forward and a Step Back]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[gpt-5 user feedback analysis]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[573]]></id>
+		<title><![CDATA[ChatGPT Overview: GPT-5, Features, Plans]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[chatgpt gpt-5 features review]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[575]]></id>
+		<title><![CDATA[GPT-5 is Finally Here: These 3 Upgrades Are Total Game Changers]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[gpt-5 upgrades and features]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[577]]></id>
+		<title><![CDATA[Top AI Use Cases According to Studies — Are You Using Them Yet?]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best ai use cases for personal finance]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[579]]></id>
+		<title><![CDATA[GPT-5 launch is expected in August 2025. Here's everything we know so far]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[gpt-5 launch news and features]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[581]]></id>
+		<title><![CDATA[3 Things I Learned About AI That Save Me Hours Every Week]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai productivity tips for busy people]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[583]]></id>
+		<title><![CDATA[My Honest Review of ChatGPT Agent]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[chatgpt agent review]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[585]]></id>
+		<title><![CDATA[The 4 AI Tools That Everyone Should Use]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best ai tools for productivity]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[587]]></id>
+		<title><![CDATA[You're using the wrong ChatGPT model. Here's how to choose the right one]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how to choose chatgpt model]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[589]]></id>
+		<title><![CDATA[AI Can Make You Productive or Dumb. Here’s How to Tell Which Side You’re On]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai productivity vs laziness]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[591]]></id>
+		<title><![CDATA[How to Create Your First AI Agent (for Non-Coders)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[create ai agent for beginners]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[593]]></id>
+		<title><![CDATA[How to AI-Proof Your Career in 2025]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai-proof your career 2025]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[595]]></id>
+		<title><![CDATA[The Perfect ChatGPT Prompt Formula]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how to write effective chatgpt prompts]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[597]]></id>
+		<title><![CDATA[How I'd Learn AI in 2025]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how to learn ai in 2025]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[599]]></id>
+		<title><![CDATA[The Quiet Revolution of AI Agents]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai agents in 2025]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[601]]></id>
+		<title><![CDATA[You’d Never Guess ChatGPT Wrote This]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how to make writing sound human]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[603]]></id>
+		<title><![CDATA[Python in Excel: Why It Matters for Data Analysts]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[python in excel for data analysts]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[605]]></id>
+		<title><![CDATA[A Free 17-Hour Course to Learn Python for Data Science (for Beginners)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[free python data science course]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[607]]></id>
+		<title><![CDATA[The ChatGPT Setup I Use To Be Ahead of 99% of Users]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[chatgpt setup tips for beginners]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[609]]></id>
+		<title><![CDATA[Codex Is Not Just Smarter. It'll Reshape Software Development]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[codex software development impact]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[611]]></id>
+		<title><![CDATA[A Simple Guide to Vibe Coding for Beginners]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[vibe coding for beginners]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[613]]></id>
+		<title><![CDATA[Soon, We May No Longer Need Humans to Train AI Models]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai models train themselves]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[615]]></id>
+		<title><![CDATA[5 Game-Changing ChatGPT Features You’re Probably Missing]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[chatgpt hidden features tutorial]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[617]]></id>
+		<title><![CDATA[Common Mistakes ChatGPT Users Make]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[common chatgpt usage mistakes]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[619]]></id>
+		<title><![CDATA[AI Gets the Credit. You Get the Bugs]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai generated code challenges]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[621]]></id>
+		<title><![CDATA[How I’d Learn Python faster using AI]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[learn python with ai tools]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[624]]></id>
+		<title><![CDATA[We’re Finally Starting to Understand How AI Works]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how ai understands its decisions]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[626]]></id>
+		<title><![CDATA[How Google Quietly Took the Lead in the AI Race with Gemini 2.5]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[google gemini 2.5 ai launch]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[628]]></id>
+		<title><![CDATA[The Rise of Ghibli-Inspired AI and the Artists Left Behind]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ghibli inspired ai art]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[630]]></id>
+		<title><![CDATA[Can AI Break the Procrastination Loop?]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai and procrastination solutions]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[632]]></id>
+		<title><![CDATA[Why ChatGPT’s New Feature Could Be the Most Controversial Design Tool Yet]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[chatgpt image generation features]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[634]]></id>
+		<title><![CDATA[What China’s Rise Means for the Future of AI]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[china artificial intelligence future]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[636]]></id>
+		<title><![CDATA[Is Today’s Progress in AGI a Real Breakthrough, Or Just Another Illusion?]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[today's progress in agi]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[638]]></id>
+		<title><![CDATA[Your Mac Terminal Doesn't Have to Look Ugly. Upgrade It In a Few Minutes]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[upgrade mac terminal appearance]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[640]]></id>
+		<title><![CDATA[AI Agents Are Here And They’re Not Just Taking Notes Anymore]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai agents for business efficiency]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[642]]></id>
+		<title><![CDATA[AI at Bargain Prices—But Who’s Really Paying the Bill?]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai pricing wars explained]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[644]]></id>
+		<title><![CDATA[Will AI Replace Programmers? The Truth Behind the Hype]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[will ai replace programmers]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[646]]></id>
+		<title><![CDATA[How AI is Reshaping Our Digital World]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai-generated content impact]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[648]]></id>
+		<title><![CDATA[AI & Python #39 : Here's What Most Python and Data Science Courses Don't Teach You]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[what data science courses skip]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[650]]></id>
+		<title><![CDATA[Sharper Machines, Duller Minds: The Paradox of AI Intelligence]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[impact of ai on creativity]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[652]]></id>
+		<title><![CDATA[Who Cares About AI—and Who Doesn't?]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[who cares about ai]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[654]]></id>
+		<title><![CDATA[Teaching in the Age of AI ... A Renaissance or the End of an Era?]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[impact of ai on education]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[656]]></id>
+		<title><![CDATA[Self-Studying Python? Here’s What I Learned After Taking 10+ Online Courses]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[self studying python online courses]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[658]]></id>
+		<title><![CDATA[The Dark Side of AI]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[the negative impacts of ai]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[660]]></id>
+		<title><![CDATA[Gen Z’s Complicated Relationship with AI]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[gen z and artificial intelligence]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[662]]></id>
+		<title><![CDATA[My Honest Review of ChatGPT's $200 Monthly Subscription]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[chatgpt pro subscription review]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[664]]></id>
+		<title><![CDATA[Behind AI #8: Here's Everything You Can Do With Python]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[what can you do with python]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[666]]></id>
+		<title><![CDATA[OpenAI Released o3-mini: Best coding model right now (better than DeepSeek R1)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best coding model 2023]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[668]]></id>
+		<title><![CDATA[Has DeepSeek Burst the AI Bubble or Just Raised the Stakes?]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[deepseek and the ai bubble]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[670]]></id>
+		<title><![CDATA[How to Easily Install DeepSeek R1 on Your Computer (without sharing your data)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[install deepseek r1 on computer]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[672]]></id>
+		<title><![CDATA[What Project Stargate Means for the Future of AI—and Who Controls It]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[future of ai project stargate]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[674]]></id>
+		<title><![CDATA[4 Free Courses I Took to Learn Python for Data Science & AI]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[free python courses for data science]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[676]]></id>
+		<title><![CDATA[Mark Zuckerberg Predicts AI Will Reshape Coding Forever in 2025]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[future of ai coding]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[678]]></id>
+		<title><![CDATA[AI & Python #38: The Easiest Way to Make Beautiful Interactive Visualizations With Pandas]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[interactive visualizations with pandas]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[680]]></id>
+		<title><![CDATA[AI Art’s Hollow Victory: Faster, Cheaper, and Forgettable]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai art devalues human creativity]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[682]]></id>
+		<title><![CDATA[AI & Python #37: Books I Read to Automate Some Boring Tasks]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[books for automating tasks]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[684]]></id>
+		<title><![CDATA[What’s Next for AI? 7 Trends to Watch in 2025]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai trends to watch 2025]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[686]]></id>
+		<title><![CDATA[OpenAI's o3 and Other AI News That Will Shape AI in 2025]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[openai o3 model features]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[688]]></id>
+		<title><![CDATA[AI & Python #36: Python Libraries You Should Learn]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best python libraries to learn]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[690]]></id>
+		<title><![CDATA[AI & Python #35: Data Science Projects in Python for All Levels]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[data science projects python]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[692]]></id>
+		<title><![CDATA[AI & Python #34: Tools That Made My Life Easier When Writing Code]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[tools for writing code]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[694]]></id>
+		<title><![CDATA[13 Cheat Codes I Wish I Knew Before (As a Programmer)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cheat codes for programmers]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[845]]></id>
+		<title><![CDATA[Is OpenAI's Sora Video Generator Any Good?]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[openai sora video generator review]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[847]]></id>
+		<title><![CDATA[I Built A Second Brain And Automated It with AI. Here's How]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[build a second brain with ai]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[851]]></id>
+		<title><![CDATA[AI & Python #33: 4 Python Books That Every Beginner Should Read to Go Beyond The Basics]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best python books for beginners]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[853]]></id>
+		<title><![CDATA[AI Tools I Use Almost Every Day]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best ai tools for productivity]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[855]]></id>
+		<title><![CDATA[AI & Python #32: Software Engineering Practices Anyone Learning Python Should Know]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[software engineering best practices for python]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[857]]></id>
+		<title><![CDATA[AI & Python #31: How to Self Study Python And Other Technical Stuff]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how to self study python]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[859]]></id>
+		<title><![CDATA[AI & Python #30: One-Liners Anyone Learning Python Should Know]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[python one-liners for beginners]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[861]]></id>
+		<title><![CDATA[Why Google Search Isn't So Useful Anymore (and what that means for ChatGPT Search)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[why google search is less useful]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[863]]></id>
+		<title><![CDATA[AI & Python #29: Python Projects You Can Finish in a Weekend]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[python projects for beginners]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[865]]></id>
+		<title><![CDATA[Hello, Apple Intelligence (Or Just Grammarly with a Few Extra AI Features)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[apple intelligence review]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[867]]></id>
+		<title><![CDATA[AI & Python #28: The Notebook Used for Data Science and AI Projects]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[jupyter notebook extensions for data science]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[869]]></id>
+		<title><![CDATA[I Used ChatGPT Vision and DALL-E 3 to Bring My Drawings to Life]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[bring drawings to life with ai]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[871]]></id>
+		<title><![CDATA[AI & Python #27: Books I Read to Learn Data Science and Machine Learning]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best books for learning data science]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[873]]></id>
+		<title><![CDATA[Behind AI #7: Top Python Libraries Any AI Enthusiast Should Know]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[top python libraries for ai]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[875]]></id>
+		<title><![CDATA[I Swapped My Face into AI Images. The Results Were Amazing!]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai face swap tutorial]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[877]]></id>
+		<title><![CDATA[AI & Python #26: A Super-Fast Way to Loop in Python]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[fast loop techniques in python]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[879]]></id>
+		<title><![CDATA[AI in Business: Moving Past the Hype and False Promises]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai in business applications]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[881]]></id>
+		<title><![CDATA[Behind AI #6: The 4 Stages of Learning Python for AI & ML]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[learn python for ai and machine learning]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[883]]></id>
+		<title><![CDATA[Hands-On With ChatGPT's Advanced Voice Mode]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[chatgpt advanced voice mode]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[885]]></id>
+		<title><![CDATA[AI & Python #25: Let's Build Your First Machine Learning Model in Python]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[build machine learning model python]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[887]]></id>
+		<title><![CDATA[AI & Python #24: Create a Linear Regression using Python]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[linear regression in python]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[889]]></id>
+		<title><![CDATA[Behind AI #5: Machine Learning Algorithms Any AI Enthusiast Should Know - Part 2]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[machine learning algorithms explained]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[891]]></id>
+		<title><![CDATA[Prompt Engineering Is Slowly Dying]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[prompt engineering relevance decline]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[893]]></id>
+		<title><![CDATA[OpenAI Releases GPT o1 "Strawberry": First Model With Advanced Reasoning]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[openai gpt o1 strawberry model]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[895]]></id>
+		<title><![CDATA[AI & Python #23: How to Tokenize Text in Python]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how to tokenize text python]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[897]]></id>
+		<title><![CDATA[Behind AI #4: What is NLP And Why is Important in AI]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[what is natural language processing]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[899]]></id>
+		<title><![CDATA[AI & Python #22: Yes, Python Has a Built-In Database. Here's How to Use It.]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[python sqlite built in database]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[901]]></id>
+		<title><![CDATA[AI & Python #21: SQL Core Concepts Any Analyst Should Know]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[sql concepts for data analysts]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[903]]></id>
+		<title><![CDATA[Is AI Hype Fading Due to Hallucinations?]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[is ai hype fading]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[905]]></id>
+		<title><![CDATA[Behind AI #3: Vector Databases - Taking Data Revolution to The Next Level]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[vector databases for unstructured data]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[907]]></id>
+		<title><![CDATA[Behind AI #2: What Is a Database and Why Is Important in AI]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[what is a database in ai]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[909]]></id>
+		<title><![CDATA[AI & Python #20: Web Scraping Projects That Will Help Automate Your Life]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[web scraping projects for automation]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[911]]></id>
+		<title><![CDATA[Behind AI #1: Machine Learning Algorithms Any AI Enthusiast Should Know]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[machine learning algorithms explained]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[913]]></id>
+		<title><![CDATA[AI & Python #19: How to Create Beautiful Visualizations in Python]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[creating visualizations in python]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[915]]></id>
+		<title><![CDATA[AI & Python #18: AI Enthusiasts Should Move from Excel to Python. Here's How]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[move from excel to python]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[917]]></id>
+		<title><![CDATA[SearchGPT: Another Failed Attempt to Take Down Google?]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[searchgpt vs google search]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[919]]></id>
+		<title><![CDATA[All AI Tools And ChatGPT Prompts in 1 Article]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best ai tools and chatgpt prompts]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[921]]></id>
+		<title><![CDATA[The AI Tool That Introverts Will Love]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai tool for introverts]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[923]]></id>
+		<title><![CDATA[How I Use AI and SQL in My Daily Work as a Data Analyst]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[using ai with sql in data analysis]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[925]]></id>
+		<title><![CDATA[4 Free Prompt Engineering Courses to Join The Top 1% of ChatGPT Users]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[free prompt engineering courses]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[927]]></id>
+		<title><![CDATA[The Birth of Modern AI]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[birth of modern ai]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[929]]></id>
+		<title><![CDATA[My Top 4 Paid Subscriptions I'll Never Cancel as a Programmer]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[top paid subscriptions for programmers]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[931]]></id>
+		<title><![CDATA[5 macOS Apps I Never Close as a Programmer]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[macos apps for programmers]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[933]]></id>
+		<title><![CDATA[  The best new AI search]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best ai search engines]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[935]]></id>
+		<title><![CDATA[Here's How Companies Will Use AI for Recruiting]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai in recruiting process]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[937]]></id>
+		<title><![CDATA[AI & Python #17: How to Convert a Python Script to an Executable File (.exe)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[convert python script to exe]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[939]]></id>
+		<title><![CDATA[AI & Python #16: 4 Python Books I Read as a Self-Taught Programmer]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best python books for beginners]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[941]]></id>
+		<title><![CDATA[How to Integrate ChatGPT Into Siri on Your iPhone]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[integrate chatgpt with siri]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[943]]></id>
+		<title><![CDATA[Apple Intelligence (AI) Finally Arrives on Apple Products]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[apple intelligence ai features]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[945]]></id>
+		<title><![CDATA[6 Free Websites (Powered by AI) That Every Content Creator Needs to Know]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[free ai tools for content creators]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[947]]></id>
+		<title><![CDATA[Automate or Get Automated: How I Changed My Life Learning to Automate (Instead of Coding)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[learn to automate tasks]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[949]]></id>
+		<title><![CDATA["AI Is Not Replacing Workers" And Other Lies About AI]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai impact on jobs]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[951]]></id>
+		<title><![CDATA[AI & Python #15: Automate The Most Tedious Task on The Internet With Python]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[automate web form filling python]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[953]]></id>
+		<title><![CDATA[AI & Python #14: How to Automate Your Python Scripts on Mac and Windows]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[automate python scripts mac windows]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[955]]></id>
+		<title><![CDATA[ChatGPT Users Will Love These Amazing GPT-4o Use Cases]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best uses for gpt-4o]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[957]]></id>
+		<title><![CDATA[How to Download The New ChatGPT Desktop App (even if you're not invited to the beta)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[download chatgpt desktop app]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[959]]></id>
+		<title><![CDATA[AI & Python #13: How to Automate Your Excel Reporting with Python]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[automate excel reporting with python]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[961]]></id>
+		<title><![CDATA[OpenAI Just Unveiled The Best AI Model: GPT-4o]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[gpt-4o new features]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[963]]></id>
+		<title><![CDATA[AI & Python #12: How to Easily Create a PDF File with Python]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[create pdf file with python]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[965]]></id>
+		<title><![CDATA[You’re Not Unlocking ChatGPT’s Full Potential. Here’s How to Do It.]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[unlocking chatgpt plus features]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[967]]></id>
+		<title><![CDATA[AI Devices Are Not There Yet]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai devices limitations and challenges]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[969]]></id>
+		<title><![CDATA[AI & Python #11: How to Automate Emails with Python]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[automate emails with python]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[971]]></id>
+		<title><![CDATA[The Rise of AI Robots Just Got Real]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[rise of ai robots]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[973]]></id>
+		<title><![CDATA[3 ChatGPT-Like Extensions to Automate Your Life]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[chatgpt extensions for productivity]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[975]]></id>
+		<title><![CDATA[AI & Python #10: Automate 4 Boring Tasks in Python with 5 Lines of Code]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[automate boring tasks with python]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[977]]></id>
+		<title><![CDATA[The False Promises of AI]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[false promises of ai]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[979]]></id>
+		<title><![CDATA[3 Simple Ways ChatGPT Has Helped me Improve My Everyday Life]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how to improve everyday life with chatgpt]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[981]]></id>
+		<title><![CDATA[10 Python Mistakes You Shouldn’t Make]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[common python mistakes beginners]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[983]]></id>
+		<title><![CDATA[5 AI Tools That Will Make Your Life Easier (Other Than ChatGPT)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best ai tools for productivity]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[985]]></id>
+		<title><![CDATA[What's the best Python Web Scraping library in 2024?]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best python web scraping library 2024]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[987]]></id>
+		<title><![CDATA[AI & Python #9: Create AI Products with The OpenAI API]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[create ai products with openai api]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[989]]></id>
+		<title><![CDATA[The Pivotal Role of Nvidia in The Future of AI]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[nvidia role in artificial intelligence]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[991]]></id>
+		<title><![CDATA[Lesson #2: Vocabulary & Listening with AI]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[using chatgpt to learn vocabulary]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[993]]></id>
+		<title><![CDATA[Can ChatGPT Solve an Entire Data Analysis Project?]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[can chatgpt handle data analysis]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[995]]></id>
+		<title><![CDATA[The Jobs That Might Be Replaced by AI]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[jobs replaced by ai]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[997]]></id>
+		<title><![CDATA[AI & Python #8: Pandas Functions that Data Analysts Use 60% of the Time]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[pandas functions for data analysis]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[999]]></id>
+		<title><![CDATA[Is AI Officially Taking Our Jobs? Meet Devin, The First AI Software Engineer]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai software engineer job impact]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1001]]></id>
+		<title><![CDATA[New Method: Web Scraping with ChatGPT Mentions]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[web scraping with chatgpt]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1003]]></id>
+		<title><![CDATA[Here's What ChatGPT Code Interpreter Can Do for Data Analysts]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[chatgpt code interpreter data analysis]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1005]]></id>
+		<title><![CDATA[Nvidia CEO Advises Against Learning to Code: Is Coding Still a Worthwhile Skill to Learn?]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[is coding still worth it]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1007]]></id>
+		<title><![CDATA[AI & Python #7: Stop Overusing “+” to Join Strings in Python]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[string concatenation in python]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1009]]></id>
+		<title><![CDATA[How Data Analysts Use ChatGPT]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how data analysts use chatgpt]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1011]]></id>
+		<title><![CDATA[PandasAI: Simple Data Analysis with AI and Python]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[pandasai for data analysis]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1013]]></id>
+		<title><![CDATA[Claude 3 Beats GPT-4 in Benchmarks: Is That Enough to Switch?]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[claude 3 vs gpt-4 comparison]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1015]]></id>
+		<title><![CDATA[How to Create Excel Formulas with ChatGPT]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[create excel formulas with chatgpt]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1017]]></id>
+		<title><![CDATA[AI & Python #6: Web Scraping in Python with Selenium]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[web scraping with selenium]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1019]]></id>
+		<title><![CDATA[AI Companies Have Been Scraping The Internet for Years. But Is Web Scraping Legal?]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[is web scraping legal]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1021]]></id>
+		<title><![CDATA[AI & Python #5: Web Scraping in Python with Beautiful Soup]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[web scraping with beautiful soup]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1023]]></id>
+		<title><![CDATA[Web Scraping in Python: Beautiful Soup, Selenium, or Scrapy?]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best python web scraping tool]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1025]]></id>
+		<title><![CDATA[AI & Python #4: The Easiest Way To Web Scrape with Python]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[web scraping with python]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1027]]></id>
+		<title><![CDATA[No-Code Tools to Make Interactive Data Visualization]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[no-code interactive data visualization]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1029]]></id>
+		<title><![CDATA[What you can do with data (besides training AI models)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[uses of data for professionals]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1031]]></id>
+		<title><![CDATA[You’re Not The Only One Feeling AI Fatigue (Or: Why That New AI Tool Isn't for You)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai fatigue solutions]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1033]]></id>
+		<title><![CDATA[AI & Python #3: Concepts You Should Know Before Learning Web Scraping]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[concepts for learning web scraping]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1035]]></id>
+		<title><![CDATA[Gemini Ultra vs GPT-4: Did Google Beat GPT-4 This Time?]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[gemini ultra vs gpt-4 comparison]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1037]]></id>
+		<title><![CDATA[No-Code Tools To Extract Data From Websites]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[no-code web scraping tools]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1039]]></id>
+		<title><![CDATA[Data: An important resource in the AI revolution]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[importance of data in ai]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1041]]></id>
+		<title><![CDATA[AI & Python #2: Two Tools Every Python Programmer Needs To Use]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[python virtual environments tutorial]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1043]]></id>
+		<title><![CDATA[If You Like AI Art Tools, You'll Love These Custom GPTs]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best gpts for ai art]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1045]]></id>
+		<title><![CDATA[Are we really in an AI bubble?]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[are we in an ai bubble]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1047]]></id>
+		<title><![CDATA[AI & Python #1: How to Learn Python with ChatGPT]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[learn python with chatgpt]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1049]]></id>
+		<title><![CDATA[I Tried Multiple AI Coding Assistants. These Are The Best]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best ai coding assistants]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1051]]></id>
+		<title><![CDATA[How ChatGPT Has Changed The Lives of Programmers]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how chatgpt helps programmers]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1053]]></id>
+		<title><![CDATA[The Best GPTs for Programmers]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best gpts for programmers]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1055]]></id>
+		<title><![CDATA[How I'd Learn to Code Using ChatGPT]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[learn to code with chatgpt]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1057]]></id>
+		<title><![CDATA[The Hidden Challenges of AI]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[challenges of artificial intelligence]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1059]]></id>
+		<title><![CDATA[OpenAI Just Released The GPT Store. Here's How To Use It And Make Money With Your GPT]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how to make money with gpt]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1061]]></id>
+		<title><![CDATA[How to Create an Irresistible Resume (with ChatGPT and Overleaf)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[create a modern resume template]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1063]]></id>
+		<title><![CDATA[How ChatGPT Helped me Get a Job]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[chatgpt for job search]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1065]]></id>
+		<title><![CDATA[Create AI Products in 2024 with the ChatGPT API]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[create ai products with chatgpt api]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1067]]></id>
+		<title><![CDATA[Master ChatGPT by learning prompt engineering]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[learn prompt engineering techniques]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1069]]></id>
+		<title><![CDATA[“Google Will Kill ChatGPT” and Other Overhyped AI Predictions We Heard In 2023]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[overhyped ai predictions 2023]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1071]]></id>
+		<title><![CDATA[How ChatGPT Helps Me Prepare for Job Interviews]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[using chatgpt for interview preparation]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1073]]></id>
+		<title><![CDATA[Master The Perfect ChatGPT Prompt Formula]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how to create effective chatgpt prompts]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1075]]></id>
+		<title><![CDATA[A Hands-On Comparison: Gemini Pro vs GPT-3.5]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[gemini pro vs gpt-3.5 comparison]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1077]]></id>
+		<title><![CDATA[Here's Why I Still Don't Buy the Hype of Google Gemini]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[why google gemini is overrated]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1079]]></id>
+		<title><![CDATA[GPT Actions: How to Create Advanced Automation in Your GPTs]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[gpt automation actions guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1081]]></id>
+		<title><![CDATA[5 AI Tools That Will Help You Bring Images to Life]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai tools for animating images]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1083]]></id>
+		<title><![CDATA[ChatGPT Prompts I Used To Become More Productive at Work]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[chatgpt productivity prompts for work]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1085]]></id>
+		<title><![CDATA[Books About AI (Published Before the AI Hype)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[books on artificial intelligence]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1087]]></id>
+		<title><![CDATA[AI Tutorial: Creating a Custom ChatGPT That Extracts Data from Websites]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[create custom chatgpt for data extraction]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1089]]></id>
+		<title><![CDATA[Guest Post: 9 AI Tools You Should Try]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[best ai tools to try]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1091]]></id>
+		<title><![CDATA[Sam Altman: Fired as OpenAI CEO, Hired to Lead Microsoft's New AI Team]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[sam altman microsoft ai team]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1093]]></id>
+		<title><![CDATA[How We Stay Up to Date with The Latest in AI]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how to stay updated on ai]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1095]]></id>
+		<title><![CDATA[OpenAI Is Slowly Killing Prompt Engineering With The Latest ChatGPT and DALL-E Updates]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[openai prompt engineering changes]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1097]]></id>
+		<title><![CDATA[How to Create Your GPT With The New ChatGPT Feature (And Tips to Make it Unique and Profitable)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[create your own gpt]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1099]]></id>
+		<title><![CDATA[OpenAI Just Released GPTs: Create Your Own ChatGPT And Make Money From It (No Coding Required)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[create your own gpt]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1101]]></id>
+		<title><![CDATA[Biden's Executive Order on AI Was Necessary. Yet, There's Still A Lot to Do]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[biden executive order ai safety]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1103]]></id>
+		<title><![CDATA[The ChatGPT Mobile App is Underrated. Here’s How to Make The Most of It]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[chatgpt mobile app tips]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1105]]></id>
+		<title><![CDATA[How to AI-Proof Your Career]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai-proof your career]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1107]]></id>
+		<title><![CDATA[Guest Post: ChatGPT Reimagines 7 Game of Thrones Characters with Midjourney]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[game of thrones character art]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1109]]></id>
+		<title><![CDATA[Lesson #1: Improve your Speaking with AI]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[practice speaking with chatgpt]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1111]]></id>
+		<title><![CDATA[I've Been Using ChatGPT Vision as a Data Analyst. Here Are Some Practical Use Cases]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[chatgpt vision use cases for data analysts]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1113]]></id>
+		<title><![CDATA[My Quick Guide to Becoming an AI/Tech Writer]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how to become an ai writer]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1115]]></id>
+		<title><![CDATA[I’ve Been Using AI To Write Better Articles for Almost 1 Year. Here’s How to Make The Most of It]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[using ai for writing articles]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1117]]></id>
+		<title><![CDATA[AI Tutorial: How to Clone Your Voice, Create AI Avatars and Translate Your Videos]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[voice cloning and video translation]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1119]]></id>
+		<title><![CDATA[I Used AI to Translate My Videos. Here's How]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai video translation tool]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1121]]></id>
+		<title><![CDATA[AI is Revolutionizing Video Creation. Here's Why This is Good for You]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai video creation tools]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1123]]></id>
+		<title><![CDATA[How I'd Learn AI from Scratch (If I Could Start Over)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[learn ai from scratch]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1125]]></id>
+		<title><![CDATA[ChatGPT Features That I Can’t Live Without]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[must-have chatgpt features]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1127]]></id>
+		<title><![CDATA[Get Your FREE Cheat Sheet (and more!)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[free ai cheat sheet]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1129]]></id>
+		<title><![CDATA[ChatGPT Just Got 2 Amazing Features: Voice and Vision]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[chatgpt voice and image features]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1131]]></id>
+		<title><![CDATA[6 Chrome Extensions That Unlock Some GPT-4 Features (Without Paying for ChatGPT Plus)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[chrome extensions for gpt-4 features]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1133]]></id>
+		<title><![CDATA[Bard Can Now Connect to Your Google Apps]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[bard google apps integration]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1135]]></id>
+		<title><![CDATA[AI Updates: The AI News That You Might've Missed This Week]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai news updates this week]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1137]]></id>
+		<title><![CDATA[ChatGPT, Do You Love Me?]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[human ai relationship evolution]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1139]]></id>
+		<title><![CDATA[How ChatGPT Works (In Plain English)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how does chatgpt work]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1141]]></id>
+		<title><![CDATA[AI News — This is What You’ve Missed This Summer]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ai news summer highlights]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1143]]></id>
+		<title><![CDATA[Will AI Prompt Engineering Be a Thing in The Future?]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[will prompt engineering continue]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1145]]></id>
+		<title><![CDATA[ChatGPT Language Prompts: Grammar, Writing Practice, Tone, and Vocabulary]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[language learning with chatgpt]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1147]]></id>
+		<title><![CDATA[My Journey to Becoming an Effective Learner Using ChatGPT]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[effective learning with chatgpt]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1149]]></id>
+		<title><![CDATA[My Honest Review of Some Paid AI Tools I’ve Used So Far]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[paid ai tools review]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1151]]></id>
+		<title><![CDATA[No Matter How Good You're At Programming, If You Don't Have Good Habits]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[good habits for programmers]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1153]]></id>
+		<title><![CDATA[I've Just Tried Google's New AI Search Engine]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[google ai search engine review]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1489]]></id>
+		<title><![CDATA[We Tested 100s of Claude Cowork Prompts. These 7 Automate Your Boring Work]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[automate boring work tasks]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1599]]></id>
+		<title><![CDATA[Stop Asking Claude for (Only) Text. Build This Instead]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1601]]></id>
+		<title><![CDATA[Kubernetes Tutorial For Beginners: 75 Comprehensive Guides]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1612]]></id>
+		<title><![CDATA[Kubernetes Tutorial For Beginners: 75 Comprehensive Guides]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1614]]></id>
+		<title><![CDATA[Jenkins Tutorial For Beginners: 21+ Practical Guides]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[jenkins tutorial for beginners]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1616]]></id>
+		<title><![CDATA[Become A DevOps Engineer in 2026: [A Practical Roadmap]]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[how to become a devops engineer]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1618]]></id>
+		<title><![CDATA[From DevOps to MLOps (A Practical Guide for 2026)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[devops to mlops transition]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1620]]></id>
+		<title><![CDATA[How to Learn Kubernetes (Beginner to Advanced Resources)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[learn kubernetes for beginners]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1622]]></id>
+		<title><![CDATA[Python For DevOps: Guide for DevOps Engineers]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[python for devops engineers]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1624]]></id>
+		<title><![CDATA[Golang For DevOps: A Complete Guide]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[golang for devops engineers]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1626]]></id>
+		<title><![CDATA[How to Learn Git for DevOps: Beginners Git Roadmap]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[learn git for devops]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1628]]></id>
+		<title><![CDATA[How to Learn Linux Shell Scripting for DevOps?]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1630]]></id>
+		<title><![CDATA[Pass the CKA Certification Exam: The Ultimate Study Guide]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cka certification study guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1632]]></id>
+		<title><![CDATA[CKAD Certification: The Comprehensive Guide for Future CKADs]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ckad certification study guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1634]]></id>
+		<title><![CDATA[CKAD Certification: The Comprehensive Guide for Future CKADs]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[ckad certification study guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1645]]></id>
+		<title><![CDATA[Argo CD: A Complete Guide to Features, Configurations and Options]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1647]]></id>
+		<title><![CDATA[CKS Exam Study Guide: Resources to Pass Certified Kubernetes Security Specialist]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[cks exam study guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1648]]></id>
+		<title><![CDATA[KCNA Certification: Detailed Study Guide]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[kcna certification study guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1649]]></id>
+		<title><![CDATA[KCSA Certification: The Complete Study Guide With Resources]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[kcsa certification study guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1650]]></id>
+		<title><![CDATA[Prometheus Certified Associate (PCA): Complete Study Guide and Exam Preparation Tips]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[prometheus certified associate exam guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1651]]></id>
+		<title><![CDATA[Certified Argo Project Associate (CAPA) Study Guide]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[argo project associate certification guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1652]]></id>
+		<title><![CDATA[Istio Certified Associate (ICA) Exam Study Guide]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[istio certified associate exam guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1654]]></id>
+		<title><![CDATA[KCNA Certification: Detailed Study Guide]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[kcna certification study guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1655]]></id>
+		<title><![CDATA[From 3.17 GB to 354 MB: How I Reduced My Kubeflow Docker Image by 89%]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1656]]></id>
+		<title><![CDATA[KCSA Certification: The Complete Study Guide With Resources]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[kcsa certification study guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1657]]></id>
+		<title><![CDATA[Prometheus Certified Associate (PCA): Complete Study Guide and Exam Preparation Tips]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[prometheus certified associate guide]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1658]]></id>
+		<title><![CDATA[Istio Architecture: The Definitive Guide to Ambient Mesh]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1659]]></id>
+		<title><![CDATA[How to Deploy Llama 3 with Docker and vLLM (Full Optimization Guide)]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1660]]></id>
+		<title><![CDATA[How to Use In-Place Pod Resize with VPA in Kubernetes]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1661]]></id>
+		<title><![CDATA[How to Provision Persistent Volume on EKS Cluster]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[provision persistent volume eks]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1662]]></id>
+		<title><![CDATA[Kubernetes Gateway API Tutorial for Beginner&#x27;s]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1663]]></id>
+		<title><![CDATA[How to Deploy Apache Airflow on Kubernetes]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1664]]></id>
+		<title><![CDATA[How to Setup Feast Feature Store on Kubernetes]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1665]]></id>
+		<title><![CDATA[How To Setup Kubernetes Cluster Using Kubeadm]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+	<node>
+		<id><![CDATA[1667]]></id>
+		<title><![CDATA[Linux Foundation Certifications: Everything You Need to Know]]></title>
+		<_yoast_wpseo_focuskw><![CDATA[]]></_yoast_wpseo_focuskw>
+		<_yoast_wpseo_metadesc><![CDATA[]]></_yoast_wpseo_metadesc>
+	</node>
+</data>

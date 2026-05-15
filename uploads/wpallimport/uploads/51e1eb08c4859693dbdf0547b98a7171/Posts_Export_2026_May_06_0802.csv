@@ -1,0 +1,392 @@
+﻿id,Title,_yoast_wpseo_focuskw,_yoast_wpseo_focuskw_text_input
+176,"""[Ansible] Giới thiệu về Ansible""",,
+177,"""[Ansible] Hướng dẫn sử dụng và quản lý Role trong Ansible""",,
+178,"""[Ansible] Quản trị Windows Server 2012 với Ansible - Phần 2""",,
+179,"""[Ansible] Quản trị Windows Server 2012 với Ansible""",,
+175,"""[AWS] Hướng dẫn tạo VPC trên AWS""",,
+193,"""[dmidecode] Hướng dẫn kiểm tra thông tin server HP và Dell""",,
+180,"""[LoadBalance] Giới thiệu LVS & IPVS""",,
+181,"""[NFV] DPDK - Data Plane Development Kit""",,
+182,"""[NFV] NFV và SDN""",,
+183,"""[NFV] Phần 1 - Giới thiệu về NFV""",,
+184,"""[NFV] Phần 2 - Kiến trúc của NFV""",,
+185,"""[NFV] SR-IOV""",,
+186,"""[Nhập môn Docker] Phần 1: Cài đặt Docker trên CentOS7""",,
+187,"""[Nhập môn Docker] Phần 2: Giới thiệu các kiểu lưu trữ dữ liệu trên Docker""",,
+189,"""[SCCM] Cài đặt SQL Server cho SCCM""",,
+188,"""[SCCM] Chuẩn bị triển khai SCCM""",,
+190,"""[SCCM] Giới thiệu SCCM""",,
+191,"""[StorSimple] Cài đặt Device Update 5.0 cho StorSimple""",,
+192,"""[StorSimple] Giới thiệu StorSimple""",,
+949,"""AI Is Not Replacing Workers"" And Other Lies About AI",ai,ai
+90,"""Audit MySQL User action bằng Mcafee Audit Plugin""",,
+92,"""Bên trong VNG Zing Database sẽ có gì""",,
+95,"""Cài đặt và cấu hình TICK Stack""",,
+96,"""Cấu hình Azure Application Gateway Redirection""",,
+97,"""Cấu hình MySQL Replication GTID Master-Master""",,
+93,"""Coi thả ga ebook với tài khoản ACM (20$/năm)""",,
+94,"""Containers - Một cách tiếp cận mới của ảo hóa""",,
+195,"""Đóng gói ứng dụng Flask với Docker""",,
+99,"""Elastic Cloud on Kubernetes (ECK)""",,
+100,"""Elasticsearch lưu ý khi config production environment""",,
+98,"""ETL vs ELT (phần 1): Xu hướng Data Warehouse""",,
+101,"""Giải thích tên dịch vụ trên Amazon Web Service (AWS)""",,
+102,"""Giới thiệu các thông số cấu hình MySQL""",,
+103,"""Giới thiệu một số thuật toán TCP Congestion Control""",,
+104,"""Giới thiệu về IPtables""",,
+105,"""Giới thiệu về LVM - Logical Volume Management""",,
+106,"""Giới thiệu về SSH""",,
+113,"""Hướng dẫn bật tính năng log trên haproxy""",,
+116,"""Hướng dẫn cài đặt Apache Guacamole""",,
+117,"""Hướng dẫn cài đặt Apache từ source""",,
+118,"""Hướng dẫn cài đặt Gitbucket trên CentOS 7""",,
+119,"""Hướng dẫn cài đặt Nginx từ source""",,
+123,"""Hướng dẫn cài đặt phiên bản Docker bất kì trên Linux""",,
+120,"""Hướng dẫn cài đặt PHP từ source""",,
+108,"""HƯỚNG DẪN CÀI ĐẶT PORTAINER ĐỂ QUẢN LÝ DOCKER HOST""",,
+124,"""Hướng dẫn cài đặt python và virtualenv""",python,python
+121,"""Hướng dẫn cài đặt Redmine trên CentOS""",,
+122,"""Hướng dẫn cài đặt Teleport làm remote SSH""",,
+125,"""Hướng dẫn cài đặt và cấu hình Memcached trên CentOS""",,
+126,"""Hướng dẫn cài đặt và mount NFS trên CentOS 7""",,
+127,"""Hướng dẫn cài đặt và sử dụng pure-ftpd để tạo tài khoản ftp""",,
+109,"""HƯỚNG DẪN CÀI ĐẶT WHATWAF""",,
+128,"""Hướng dẫn cấu hình Cache cho Nginx""",,
+133,"""Hướng dẫn cấu hình chạy mô hình LAMP stack trên Directadmin""",,
+134,"""Hướng dẫn cấu hình keepalive connection cho Nginx""",,
+129,"""Hướng dẫn cấu hình Max File Descriptor""",,
+130,"""Hướng dẫn cấu hình MySQL replication Master-Slave""",,
+132,"""Hướng dẫn cấu hình Nginx load balance""",,
+131,"""Hướng dẫn cấu hình NTP""",,
+135,"""Hướng dẫn cấu hình virtual IP với keepalived""",,
+115,"""Hướng dẫn chặn toàn bộ IP của một quốc gia trên Windows""",,
+114,"""Hướng dẫn chít game Clicker Heroes - Android""",,
+107,"""HƯỚNG DẪN CHUYỂN ĐỔI CENTOS 8 SANG ROCKY LINUX""",,
+136,"""Hướng dẫn dùng tính năng submodule của Git""",,
+137,"""Hướng dẫn giấu một folder trên Windows""",,
+138,"""Hướng dẫn kiểm tra IOPS trên server Linux""",,
+139,"""Hướng dẫn kiểm tra trạng thái RAID""",,
+140,"""Hướng dẫn liệt kê danh sách domain của nginx""",,
+141,"""Hướng dẫn reset password admin Grafana""",,
+142,"""Hướng dẫn setup Prometheus + Grafana để monitor dịch vụ""",,
+144,"""Hướng dẫn sử dụng mRemoteNG để Remote Desktop""",,
+143,"""Hướng dẫn sử dụng Selenium""",,
+148,"""Hướng dẫn tạo chứng thực cơ bản nginx - http basic authentication""",,
+145,"""Hướng dẫn thao tác với lệnh vi""",,
+146,"""Hướng dẫn thay đổi port remote desktop""",,
+147,"""Hướng dẫn toàn tập về partition trên Linux""",,
+149,"""Hướng dẫn tối ưu Linux kernel""",,
+150,"""Hướng dẫn tự động start dịch vụ trên Linux - Giới thiệu về các Init System (Phần 1)""",,
+151,"""Hướng dẫn update kernel linux trên CentOS bằng yum""",,
+111,"""Hướng dẫn Upgrade Kernel Linux.""",,
+152,"""Hướng dẫn vô hiệu hóa giao thức SMB trên Windows server""",,
+110,"""Hướng Dẫn Xử Lý Tình Trạng Full Inode""",,
+153,"""ISASS.exe sử dụng nhiều băng thông""",,
+154,"""Lập trình Bash Shell cơ bản - Phần 1""",,
+155,"""Moby Project - Công nghiệp hóa containers""",,
+156,"""MongoDB - Phần 1 Giới thiệu về MongoDB""",,
+157,"""Một lần đi lên mây - Dạo một vòng AWS Networking""",,
+158,"""Những gì đã xảy ra khi boot một hệ thống Linux?""",,
+194,"""ownCloud trên Docker - Lưu trữ dữ liệu chia sẻ - Triển khai dễ dàng""",,
+159,"""PHƯƠNG PHÁP LẬP KẾ HOẠCH SAO LƯU HIỆU QUẢ""",,
+160,"""Prometheus at Scale - Hướng dẫn sharding Prometheus""",,
+161,"""Prometheus at Scale - Tổng quan về Prometheus""",,
+162,"""RÀ SOÁT LỖI & TỐI ƯU HÓA HỆ THỐNG SAO LƯU DOANH NGHIỆP""",,
+163,"""SAO LƯU: TRỨNG PHỤC SINH CỦA HỆ THỐNG DỮ LIỆU DOANH NGHIỆP""",,
+164,"""So sánh các phiên bản Windows server 2012""",,
+165,"""Soft Delete của Azure Storage Blob: Trứng phục sinh của dữ liệu đã xóa""",,
+166,"""Swap là gì? Tổng quan về swap""",,
+168,"""Thế nào là MCSA, MCSE""",,
+169,"""Tìm hiểu về MySQL""",,
+170,"""Tổng quan về Hyper-V""",,
+171,"""Tổng quan về PHP""",,
+167,"""TRIỂN KHAI & ĐO LƯỜNG SAO LƯU & PHỤC HỒI""",,
+172,"""Tự động đồng bộ 2 thư mục trên Windows""",,
+173,"""Use Thinkpad T470 fingerprint on Ubuntu 16.04""",,
+174,"""Xây dựng mạng lưới Etherum cá nhân bằng Docker Compose""",,
+1069,“Google Will Kill ChatGPT” and Other Overhyped AI Predictions We Heard In 2023,chatgpt,chatgpt
+981,10 Python Mistakes You Shouldn’t Make,python,python
+694,13 Cheat Codes I Wish I Knew Before (As a Programmer),programmer,programmer
+420,13 Most Important AI Concepts Every Claude User Should Know,concept,concept
+549,25 Things I've Learned About ChatGPT and Other AI Tools,chatgpt,chatgpt
+973,3 ChatGPT-Like Extensions to Automate Your Life,chatgpt,chatgpt
+979,3 Simple Ways ChatGPT Has Helped me Improve My Everyday Life,chatgpt,chatgpt
+581,3 Things I Learned About AI That Save Me Hours Every Week,ai,ai
+674,4 Free Courses I Took to Learn Python for Data Science & AI,course,course
+925,4 Free Prompt Engineering Courses to Join The Top 1% of ChatGPT Users,chatgpt,chatgpt
+1081,5 AI Tools That Will Help You Bring Images to Life,ai,ai
+983,5 AI Tools That Will Make Your Life Easier (Other Than ChatGPT),chatgpt,chatgpt
+615,5 Game-Changing ChatGPT Features You’re Probably Missing,chatgpt,chatgpt
+931,5 macOS Apps I Never Close as a Programmer,programmer,programmer
+1131,6 Chrome Extensions That Unlock Some GPT-4 Features (Without Paying for ChatGPT Plus),chatgpt,chatgpt
+945,6 Free Websites (Powered by AI) That Every Content Creator Needs to Know,ai,ai
+493,65% Stick to ChatGPT. Here's Why The Rest Are Switching to Gemini and Claude,claude,claude
+503,A 15-Week Course to Master AI in 2026,course,course
+605,A Free 17-Hour Course to Learn Python for Data Science (for Beginners),course,course
+1075,A Hands-On Comparison: Gemini Pro vs GPT-3.5,chatgpt,chatgpt
+611,A Simple Guide to Vibe Coding for Beginners,coding,coding
+551,A simple tweak that helps me generate better images and edit them with ChatGPT,chatgpt,chatgpt
+1047,AI & Python #1: How to Learn Python with ChatGPT,chatgpt,chatgpt
+975,AI & Python #10: Automate 4 Boring Tasks in Python with 5 Lines of Code,python,python
+969,AI & Python #11: How to Automate Emails with Python,python,python
+963,AI & Python #12: How to Easily Create a PDF File with Python,python,python
+959,AI & Python #13: How to Automate Your Excel Reporting with Python,python,python
+953,AI & Python #14: How to Automate Your Python Scripts on Mac and Windows,python,python
+951,AI & Python #15: Automate The Most Tedious Task on The Internet With Python,python,python
+939,AI & Python #16: 4 Python Books I Read as a Self-Taught Programmer,python,python
+937,AI & Python #17: How to Convert a Python Script to an Executable File (.exe),python,python
+915,AI & Python #18: AI Enthusiasts Should Move from Excel to Python. Here's How,python,python
+913,AI & Python #19: How to Create Beautiful Visualizations in Python,python,python
+1041,AI & Python #2: Two Tools Every Python Programmer Needs To Use,python,python
+909,AI & Python #20: Web Scraping Projects That Will Help Automate Your Life,python,python
+901,AI & Python #21: SQL Core Concepts Any Analyst Should Know,python,python
+899,"AI & Python #22: Yes, Python Has a Built-In Database. Here's How to Use It.",python,python
+895,AI & Python #23: How to Tokenize Text in Python,python,python
+887,AI & Python #24: Create a Linear Regression using Python,python,python
+885,AI & Python #25: Let's Build Your First Machine Learning Model in Python,python,python
+877,AI & Python #26: A Super-Fast Way to Loop in Python,python,python
+871,AI & Python #27: Books I Read to Learn Data Science and Machine Learning,python,python
+867,AI & Python #28: The Notebook Used for Data Science and AI Projects,python,python
+863,AI & Python #29: Python Projects You Can Finish in a Weekend,python,python
+1033,AI & Python #3: Concepts You Should Know Before Learning Web Scraping,python,python
+859,AI & Python #30: One-Liners Anyone Learning Python Should Know,python,python
+857,AI & Python #31: How to Self Study Python And Other Technical Stuff,python,python
+855,AI & Python #32: Software Engineering Practices Anyone Learning Python Should Know,python,python
+851,AI & Python #33: 4 Python Books That Every Beginner Should Read to Go Beyond The Basics,python,python
+692,AI & Python #34: Tools That Made My Life Easier When Writing Code,python,python
+690,AI & Python #35: Data Science Projects in Python for All Levels,python,python
+688,AI & Python #36: Python Libraries You Should Learn,python,python
+682,AI & Python #37: Books I Read to Automate Some Boring Tasks,python,python
+678,AI & Python #38: The Easiest Way to Make Beautiful Interactive Visualizations With Pandas,python,python
+648,AI & Python #39 : Here's What Most Python and Data Science Courses Don't Teach You,python,python
+1025,AI & Python #4: The Easiest Way To Web Scrape with Python,python,python
+1021,AI & Python #5: Web Scraping in Python with Beautiful Soup,python,python
+1017,AI & Python #6: Web Scraping in Python with Selenium,python,python
+1007,AI & Python #7: Stop Overusing “+” to Join Strings in Python,python,python
+997,AI & Python #8: Pandas Functions that Data Analysts Use 60% of the Time,python,python
+987,AI & Python #9: Create AI Products with The OpenAI API,python,python
+640,AI Agents Are Here And They’re Not Just Taking Notes Anymore,agent,agent
+553,AI Agents: The Next Big Thing After ChatGPT,chatgpt,chatgpt
+680,"AI Art’s Hollow Victory: Faster, Cheaper, and Forgettable",ai,ai
+642,AI at Bargain Prices—But Who’s Really Paying the Bill?,ai,ai
+589,AI Can Make You Productive or Dumb. Here’s How to Tell Which Side You’re On,ai,ai
+1019,AI Companies Have Been Scraping The Internet for Years. But Is Web Scraping Legal?,ai,ai
+967,AI Devices Are Not There Yet,ai,ai
+619,AI Gets the Credit. You Get the Bugs,ai,ai
+879,AI in Business: Moving Past the Hype and False Promises,ai,ai
+1121,AI is Revolutionizing Video Creation. Here's Why This is Good for You,ai,ai
+1141,AI News — This is What You’ve Missed This Summer,ai,ai
+853,AI Tools I Use Almost Every Day,ai,ai
+1087,AI Tutorial: Creating a Custom ChatGPT That Extracts Data from Websites,chatgpt,chatgpt
+1117,"AI Tutorial: How to Clone Your Voice, Create AI Avatars and Translate Your Videos",ai,ai
+1135,AI Updates: The AI News That You Might've Missed This Week,ai,ai
+919,All AI Tools And ChatGPT Prompts in 1 Article,chatgpt,chatgpt
+943,Apple Intelligence (AI) Finally Arrives on Apple Products,ai,ai
+1045,Are we really in an AI bubble?,ai,ai
+947,Automate or Get Automated: How I Changed My Life Learning to Automate (Instead of Coding),automate,automate
+1133,Bard Can Now Connect to Your Google Apps,google,google
+567,"Before You Chat With a Meta AI Bot, Read This",meta,meta
+480,"Before You Use Claude Code, Learn This First",claude,claude
+457,"Before You Use Claude Cowork, Build This First",claude,claude
+468,"Before You Use Claude, Create This File",claude,claude
+410,"Before Your Next Big Decision, Build This Claude Skill",skill,skill
+911,Behind AI #1: Machine Learning Algorithms Any AI Enthusiast Should Know,ai,ai
+907,Behind AI #2: What Is a Database and Why Is Important in AI,ai,ai
+905,Behind AI #3: Vector Databases - Taking Data Revolution to The Next Level,ai,ai
+897,Behind AI #4: What is NLP And Why is Important in AI,ai,ai
+889,Behind AI #5: Machine Learning Algorithms Any AI Enthusiast Should Know - Part 2,ai,ai
+881,Behind AI #6: The 4 Stages of Learning Python for AI & ML,python,python
+873,Behind AI #7: Top Python Libraries Any AI Enthusiast Should Know,python,python
+664,Behind AI #8: Here's Everything You Can Do With Python,ai,ai
+1101,"Biden's Executive Order on AI Was Necessary. Yet, There's Still A Lot to Do",ai,ai
+1085,Books About AI (Published Before the AI Hype),ai,ai
+630,Can AI Break the Procrastination Loop?,ai,ai
+993,Can ChatGPT Solve an Entire Data Analysis Project?,chatgpt,chatgpt
+529,ChatGPT Atlas: Complete Guide,atlas,atlas
+1125,ChatGPT Features That I Can’t Live Without,chatgpt,chatgpt
+1129,ChatGPT Just Got 2 Amazing Features: Voice and Vision,chatgpt,chatgpt
+1145,"ChatGPT Language Prompts: Grammar, Writing Practice, Tone, and Vocabulary",chatgpt,chatgpt
+573,"ChatGPT Overview: GPT-5, Features, Plans",gpt,gpt
+1083,ChatGPT Prompts I Used To Become More Productive at Work,chatgpt,chatgpt
+955,ChatGPT Users Will Love These Amazing GPT-4o Use Cases,chatgpt,chatgpt
+1137,"ChatGPT, Do You Love Me?",chatgpt,chatgpt
+1013,Claude 3 Beats GPT-4 in Benchmarks: Is That Enough to Switch?,chatgpt,chatgpt
+455,"Claude Can Now Click, Type, and Navigate Your Computer Apps. Here Are My Best Use Cases",claude,claude
+453,Claude Cowork Just Got Projects. Here's How to Set It Up (So You Stop Re-Explaining Yourself),claude,claude
+505,Claude for Beginners: Complete Guide,claude,claude
+422,"Claude Opus 4.7 is here: What changed, how to get more out of it, and what might break in your workflow",claude,claude
+488,Clawdbot Is Taking The AI Community by Storm. Here's What it is and How to Use It,clawdbot,clawdbot
+609,Codex Is Not Just Smarter. It'll Reshape Software Development,codex,codex
+617,Common Mistakes ChatGPT Users Make,chatgpt,chatgpt
+1065,Create AI Products in 2024 with the ChatGPT API,chatgpt,chatgpt
+1039,Data: An important resource in the AI revolution,ai,ai
+535,Deep Research: One of ChatGPT’s Best Features,chatgpt,chatgpt
+497,Duolingo couldn’t teach me Spanish in 2 years. AI did it in a few months,duolingo,duolingo
+418,Everything You Get as an Artificial Corner Subscriber (Free & Paid),subscriber,subscriber
+491,Forget AI Tools. AI Agents Will Automate Your Life in 2026,ai,ai
+523,From AI Slop to Robotics Slop,ai,ai
+513,Gemini 3 Is Now The #1 Model: Here's a Feature Everyone Should Use,gemini,gemini
+1035,Gemini Ultra vs GPT-4: Did Google Beat GPT-4 This Time?,chatgpt,chatgpt
+660,Gen Z’s Complicated Relationship with AI,ai,ai
+1127,Get Your FREE Cheat Sheet (and more!),,
+1079,GPT Actions: How to Create Advanced Automation in Your GPTs,chatgpt,chatgpt
+575,GPT-5 is Finally Here: These 3 Upgrades Are Total Game Changers,gpt,gpt
+579,GPT-5 launch is expected in August 2025. Here's everything we know so far,gpt5,gpt5
+563,GPT-5 May Be Proof That Scaling Alone Can’t Save AI,gpt-5,gpt-5
+569,GPT-5 Prompting Techniques,gpt,gpt
+1089,Guest Post: 9 AI Tools You Should Try,ai,ai
+1107,Guest Post: ChatGPT Reimagines 7 Game of Thrones Characters with Midjourney,chatgpt,chatgpt
+883,Hands-On With ChatGPT's Advanced Voice Mode,chatgpt,chatgpt
+668,Has DeepSeek Burst the AI Bubble or Just Raised the Stakes?,deepseek,deepseek
+865,"Hello, Apple Intelligence (Or Just Grammarly with a Few Extra AI Features)",ai,ai
+935,Here's How Companies Will Use AI for Recruiting,ai,ai
+1003,Here's What ChatGPT Code Interpreter Can Do for Data Analysts,chatgpt,chatgpt
+1077,Here's Why I Still Don't Buy the Hype of Google Gemini,gemini,gemini
+646,How AI is Reshaping Our Digital World,ai,ai
+1051,How ChatGPT Has Changed The Lives of Programmers,chatgpt,chatgpt
+1063,How ChatGPT Helped me Get a Job,chatgpt,chatgpt
+1071,How ChatGPT Helps Me Prepare for Job Interviews,chatgpt,chatgpt
+1139,How ChatGPT Works (In Plain English),chatgpt,chatgpt
+482,How Claude Cowork Saves Me 100s of Hours (ChatGPT Can't Do This),claude,claude
+1009,How Data Analysts Use ChatGPT,chatgpt,chatgpt
+626,How Google Quietly Took the Lead in the AI Race with Gemini 2.5,gemini,gemini
+462,How I Stopped Hitting Claude's Usage Limits,claude,claude
+466,How I Turn My AI Chat History into Claude Code Projects Memory,project,project
+923,How I Use AI and SQL in My Daily Work as a Data Analyst,ai,ai
+621,How I’d Learn Python faster using AI,ai,ai
+1123,How I'd Learn AI from Scratch (If I Could Start Over),ai,ai
+597,How I'd Learn AI in 2025,ai,ai
+1055,How I'd Learn to Code Using ChatGPT,chatgpt,chatgpt
+1105,How to AI-Proof Your Career,ai,ai
+593,How to AI-Proof Your Career in 2025,career,career
+495,"How to Build Your Own $10,000 AI Mentor (For Free)",ai,ai
+1061,How to Create an Irresistible Resume (with ChatGPT and Overleaf),chatgpt,chatgpt
+1015,How to Create Excel Formulas with ChatGPT,chatgpt,chatgpt
+507,How to Create Professional Visuals with AI,visual,visual
+591,How to Create Your First AI Agent (for Non-Coders),ai,ai
+1097,How to Create Your GPT With The New ChatGPT Feature (And Tips to Make it Unique and Profitable),chatgpt,chatgpt
+957,How to Download The New ChatGPT Desktop App (even if you're not invited to the beta),chatgpt,chatgpt
+670,How to Easily Install DeepSeek R1 on Your Computer (without sharing your data),deepseek,deepseek
+525,How to Go From AI Beginner to Pro in 2025,ai,ai
+545,How to Go from ChatGPT Beginner to Pro,chatgpt,chatgpt
+941,How to Integrate ChatGPT Into Siri on Your iPhone,chatgpt,chatgpt
+416,How to Learn Spanish (Or Any Language) Faster With Claude,languague,languague
+451,How to Make Claude Write Like You,claude,claude
+472,How to move from ChatGPT to Claude (without starting from 0),claude,claude
+531,How to quickly optimize your prompts with ChatGPT,chatgpt,chatgpt
+460,How to Run Claude Cowork Tasks From Your Phone,claude,claude
+470,How to Turn Claude into a 24/7 Employee (It Has Automated My Work),claude,claude
+527,How to Use AI with Excel (Reliably): From Generating Functions to Complete Reports,excel,excel
+412,How to Use Claude to Prepare for Job Interviews,job,job
+486,How We Learn (Any) Topic Faster with NotebookLM,Notebook,Notebook
+1093,How We Stay Up to Date with The Latest in AI,ai,ai
+847,I Built A Second Brain And Automated It with AI. Here's How,ai,ai
+414,I Made Claude Smarter by Connecting It to NotebookLM. Here's How,Notebook,Notebook
+474,I Stopped Re-Explaining Everything to Claude Code. This CLAUDE.md File Does It for Me,claude,claude
+875,I Swapped My Face into AI Images. The Results Were Amazing!,ai,ai
+533,I Took Google’s Prompt Engineering Course. Here’s What Actually Works,course,course
+559,I Took Google's AI Course for Beginners. Here's a Summary in Plain English,google,google
+1049,I Tried Multiple AI Coding Assistants. These Are The Best,ai,ai
+1119,I Used AI to Translate My Videos. Here's How,ai,ai
+869,I Used ChatGPT Vision and DALL-E 3 to Bring My Drawings to Life,chatgpt,chatgpt
+543,I’m Happy I Canceled These AI Subscriptions,subscription,subscription
+1115,I’ve Been Using AI To Write Better Articles for Almost 1 Year. Here’s How to Make The Most of It,ai,ai
+1043,"If You Like AI Art Tools, You'll Love These Custom GPTs",chatgpt,chatgpt
+565,"If You Like ChatGPT, You'll Love These AI Agents",chatgpt,chatgpt
+561,"If You Use ChatGPT, You Need This Productivity App",chatgpt,chatgpt
+903,Is AI Hype Fading Due to Hallucinations?,ai,ai
+999,"Is AI Officially Taking Our Jobs? Meet Devin, The First AI Software Engineer",ai,ai
+845,Is OpenAI's Sora Video Generator Any Good?,openai,openai
+636,"Is Today’s Progress in AGI a Real Breakthrough, Or Just Another Illusion?",agi,agi
+1111,I've Been Using ChatGPT Vision as a Data Analyst. Here Are Some Practical Use Cases,chatgpt,chatgpt
+1153,I've Just Tried Google's New AI Search Engine,ai,ai
+1109,Lesson #1: Improve your Speaking with AI,ai,ai
+991,Lesson #2: Vocabulary & Listening with AI,ai,ai
+519,Lesson #3: Improve Reading & Writing with AI,ai,ai
+499,Lesson #4: My System to Learn (Any) Language with AI,language,language
+676,Mark Zuckerberg Predicts AI Will Reshape Coding Forever in 2025,ai,ai
+1067,Master ChatGPT by learning prompt engineering,chatgpt,chatgpt
+1073,Master The Perfect ChatGPT Prompt Formula,chatgpt,chatgpt
+583,My Honest Review of ChatGPT Agent,chatgpt,chatgpt
+662,My Honest Review of ChatGPT's $200 Monthly Subscription,chatgpt,chatgpt
+1149,My Honest Review of Some Paid AI Tools I’ve Used So Far,ai,ai
+1147,My Journey to Becoming an Effective Learner Using ChatGPT,chatgpt,chatgpt
+1113,My Quick Guide to Becoming an AI/Tech Writer,ai,ai
+929,My Top 4 Paid Subscriptions I'll Never Cancel as a Programmer,ai,ai
+511,Nano Banana Pro: Complete Guide,banana,banana
+1001,New Method: Web Scraping with ChatGPT Mentions,chatgpt,chatgpt
+1151,"No Matter How Good You're At Programming, If You Don't Have Good Habits",programming,programming
+1037,No-Code Tools To Extract Data From Websites,website,website
+1027,No-Code Tools to Make Interactive Data Visualization,visualization,visualization
+1005,Nvidia CEO Advises Against Learning to Code: Is Coding Still a Worthwhile Skill to Learn?,ai,ai
+1095,OpenAI Is Slowly Killing Prompt Engineering With The Latest ChatGPT and DALL-E Updates,chatgpt,chatgpt
+1099,OpenAI Just Released GPTs: Create Your Own ChatGPT And Make Money From It (No Coding Required),chatgpt,chatgpt
+1059,OpenAI Just Released The GPT Store. Here's How To Use It And Make Money With Your GPT,chatgpt,chatgpt
+961,OpenAI Just Unveiled The Best AI Model: GPT-4o,chatgpt,chatgpt
+666,OpenAI Released o3-mini: Best coding model right now (better than DeepSeek R1),openai,openai
+893,"OpenAI Releases GPT o1 ""Strawberry"": First Model With Advanced Reasoning",chatgpt,chatgpt
+686,OpenAI's o3 and Other AI News That Will Shape AI in 2025,openai,openai
+541,OpenAI's Sora 2 is amazing! Here's how I got early access,sora,sora
+1011,PandasAI: Simple Data Analysis with AI and Python,python,python
+557,Perplexity AI: Complete Guide,ai,ai
+891,Prompt Engineering Is Slowly Dying,prompt,prompt
+603,Python in Excel: Why It Matters for Data Analysts,analyst,analyst
+1091,"Sam Altman: Fired as OpenAI CEO, Hired to Lead Microsoft's New AI Team",openai,openai
+917,SearchGPT: Another Failed Attempt to Take Down Google?,chatgpt,chatgpt
+656,Self-Studying Python? Here’s What I Learned After Taking 10+ Online Courses,python,python
+650,"Sharper Machines, Duller Minds: The Paradox of AI Intelligence",ai,ai
+478,Skills Are Claude Code's Cheat Code. Here's How to Use Them,claude,claude
+613,"Soon, We May No Longer Need Humans to Train AI Models",model,model
+539,Sora 2 may be the ChatGPT moment for video generation (and it's scary),chatgpt,chatgpt
+537,Sora 2 Prompting Guide,sora,sora
+654,Teaching in the Age of AI ... A Renaissance or the End of an Era?,ai,ai
+585,The 4 AI Tools That Everyone Should Use,tool,tool
+921,The AI Tool That Introverts Will Love,ai,ai
+515,The Best AI Tools for 2026: From Must-Have to Niche,ai,ai
+521,The Best Books to Increase Your AI Literacy in 2026 (+How I Use AI to Learn More From Books),book,book
+517,The Best ChatGPT Prompt Principles You Need to Follow,prompt,prompt
+501,The Best ChatGPT Prompts You Need to Use in 2026,chatgpt,chatgpt
+1053,The Best GPTs for Programmers,chatgpt,chatgpt
+428,The Best Way to Learn Claude (And Other AI Tools),claude,claude
+927,The Birth of Modern AI,ai,ai
+1103,The ChatGPT Mobile App is Underrated. Here’s How to Make The Most of It,chatgpt,chatgpt
+607,The ChatGPT Setup I Use To Be Ahead of 99% of Users,chatgpt,chatgpt
+464,The Claude Setup I Use To Be Ahead of 99% of Users,claude,claude
+658,The Dark Side of AI,ai,ai
+977,The False Promises of AI,ai,ai
+1057,The Hidden Challenges of AI,ai,ai
+995,The Jobs That Might Be Replaced by AI,ai,ai
+509,The One AI Skill Worth Mastering (It Never Goes Obsolete),ai,ai
+595,The Perfect ChatGPT Prompt Formula,chatgpt,chatgpt
+989,The Pivotal Role of Nvidia in The Future of AI,ai,ai
+599,The Quiet Revolution of AI Agents,agent,agent
+971,The Rise of AI Robots Just Got Real,ai,ai
+628,The Rise of Ghibli-Inspired AI and the Artists Left Behind,ghibli,ghibli
+547,These iPhone Features Changed How I Use ChatGPT,iphone,iphone
+577,Top AI Use Cases According to Studies — Are You Using Them Yet?,usecase,usecase
+1489,We Tested 100s of Claude Cowork Prompts. These 7 Automate Your Boring Work,claude,claude
+449,We Tried 100 Claude Skills. These Are The Best,skill,skill
+424,We Tried Claude in Excel. These Are The Best Use Cases,claude,claude
+426,We Used Claude Cowork to Pull Data From Any Website. Here's How,claude,claude
+624,We’re Finally Starting to Understand How AI Works,ai,ai
+1023,"Web Scraping in Python: Beautiful Soup, Selenium, or Scrapy?",python,python
+634,What China’s Rise Means for the Future of AI,ai,ai
+672,What Project Stargate Means for the Future of AI—and Who Controls It,stargate,stargate
+1029,What you can do with data (besides training AI models),ai,ai
+684,What’s Next for AI? 7 Trends to Watch in 2025,ai,ai
+985,What's the best Python Web Scraping library in 2024?,python,python
+652,Who Cares About AI—and Who Doesn't?,ai,ai
+632,Why ChatGPT’s New Feature Could Be the Most Controversial Design Tool Yet,chatgpt,chatgpt
+861,Why Google Search Isn't So Useful Anymore (and what that means for ChatGPT Search),chatgpt,chatgpt
+571,Why GPT-5 Feels Like a Step Forward and a Step Back,gpt,gpt
+484,Why You Need Claude Code and How to Use It (Even With 0 Coding Experience),claude,claude
+1143,Will AI Prompt Engineering Be a Thing in The Future?,ai,ai
+644,Will AI Replace Programmers? The Truth Behind the Hype,ai,ai
+601,You’d Never Guess ChatGPT Wrote This,chatgpt,chatgpt
+1031,You’re Not The Only One Feeling AI Fatigue (Or: Why That New AI Tool Isn't for You),ai,ai
+965,You’re Not Unlocking ChatGPT’s Full Potential. Here’s How to Do It.,chatgpt,chatgpt
+638,Your Mac Terminal Doesn't Have to Look Ugly. Upgrade It In a Few Minutes,mac,mac
+476,You're Using Claude Wrong! Here's How to Be Ahead of 99% of Users,claude,claude
+587,You're using the wrong ChatGPT model. Here's how to choose the right one,chatgpt,chatgpt
+555,You're using the wrong ChatGPT-5 mode. Here's how to choose the right one,chatgpt,chatgpt
+933,🔎 The best new AI search,ai,ai

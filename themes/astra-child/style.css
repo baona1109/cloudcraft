@@ -1,0 +1,27 @@
+/*
+Theme Name:   Astra Child - CloudCraft
+Theme URI:    https://cloudcraft.sudocrew.io.vn/
+Description:  CloudCraft child theme for Astra. Adds: tag hiding, fallback featured image, top categories widget.
+Author:       CloudCraft Team
+Author URI:   https://cloudcraft.sudocrew.io.vn/
+Template:     astra
+Version:      1.0.0
+Text Domain:  astra-child
+*/
+
+/* -----------------------------------------------
+   Inherit all styles from the Astra parent theme
+----------------------------------------------- */
+@import url("../astra/style.css");
+
+/* -----------------------------------------------
+   Hide empty tag list on posts that have no tags
+   (Fallback: CSS hides the wrapper when it only
+   contains whitespace / no <a> tags inside)
+----------------------------------------------- */
+.tagcloud:empty,
+.tags-links:empty,
+.entry-tags:empty,
+.post-tags:empty {
+    display: none;
+}
