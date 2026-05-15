@@ -271,6 +271,68 @@ add_action( 'widgets_init', function() {
 } );
 
 
+// ── 4. Dark mode toggle ──────────────────────────────────────────────────────
+// Early script prevents flash-of-light before CSS loads
+add_action( 'wp_head', 'cloudcraft_dark_mode_early_init', 1 );
+function cloudcraft_dark_mode_early_init() {
+    ?>
+    <script>
+    (function(){
+        var s = localStorage.getItem('cc-dark');
+        var sys = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if ( s === '1' || ( s === null && sys ) ) {
+            document.documentElement.classList.add('cloudcraft-dark');
+        }
+    })();
+    </script>
+    <?php
+}
+
+// Toggle button injected into Astra's header custom items area
+add_action( 'astra_masthead_custom_menu_items', 'cloudcraft_dark_mode_toggle' );
+function cloudcraft_dark_mode_toggle() {
+    ?>
+    <button class="cc-dm-btn" id="cc-dm-btn" aria-label="<?php esc_attr_e( 'Toggle dark mode', 'astra-child' ); ?>">
+        <span class="cc-dm-knob" id="cc-dm-knob">🌙</span>
+        <span id="cc-dm-label"><?php esc_html_e( 'Dark', 'astra-child' ); ?></span>
+    </button>
+    <?php
+}
+
+// Toggle script — runs at footer so button element exists
+add_action( 'wp_footer', 'cloudcraft_dark_mode_script' );
+function cloudcraft_dark_mode_script() {
+    ?>
+    <script>
+    (function(){
+        var btn   = document.getElementById('cc-dm-btn');
+        var knob  = document.getElementById('cc-dm-knob');
+        var label = document.getElementById('cc-dm-label');
+        var root  = document.documentElement;
+        var key   = 'cc-dark';
+
+        function apply( dark ) {
+            root.classList.toggle( 'cloudcraft-dark', dark );
+            if ( knob )  knob.textContent  = dark ? '☀️' : '🌙';
+            if ( label ) label.textContent = dark ? 'Light' : 'Dark';
+        }
+
+        // Sync button state to whatever early-init already set
+        apply( root.classList.contains('cloudcraft-dark') );
+
+        if ( btn ) {
+            btn.addEventListener('click', function(){
+                var isDark = root.classList.contains('cloudcraft-dark');
+                apply( !isDark );
+                localStorage.setItem( key, !isDark ? '1' : '0' );
+            });
+        }
+    })();
+    </script>
+    <?php
+}
+
+
 // ── 3b. Shortcode: [cloudcraft_top_categories number="10" show_count="1"] ────
 add_shortcode( 'cloudcraft_top_categories', 'cloudcraft_top_cats_shortcode' );
 function cloudcraft_top_cats_shortcode( $atts ) {

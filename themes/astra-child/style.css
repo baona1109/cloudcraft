@@ -1,20 +1,340 @@
 /*
 Theme Name:   Astra Child - CloudCraft
 Theme URI:    https://cloudcraft.sudocrew.io.vn/
-Description:  CloudCraft child theme for Astra. Adds: tag hiding, fallback featured image, top categories widget.
+Description:  CloudCraft child theme for Astra. Adds: tag hiding, fallback featured image, top categories widget, Option-A pastel styling, dark mode.
 Author:       CloudCraft Team
 Author URI:   https://cloudcraft.sudocrew.io.vn/
 Template:     astra
-Version:      1.0.0
+Version:      1.1.0
 Text Domain:  astra-child
 */
 
-/* -----------------------------------------------
-   Hide empty tag / category sections (CSS fallback)
------------------------------------------------ */
+/* ── Hide empty tag / category sections (CSS fallback) ── */
 .tagcloud:empty,
 .tags-links:empty,
 .entry-tags:empty,
 .post-tags:empty {
     display: none;
+}
+
+
+/* ════════════════════════════════════════════════════════
+   COLOR TOKENS  —  Option A: Blue → Lavender + pastel
+   ════════════════════════════════════════════════════════ */
+:root {
+    --cc-g1:        #74A9E6;
+    --cc-g2:        #B49FD9;
+    --cc-accent:    #FFB5C8;
+    --cc-body-bg:   #FAFBFF;
+    --cc-card-bg:   #F6F8FF;
+    --cc-nav-bg:    #ffffff;
+    --cc-text:      #2D3A4A;
+    --cc-muted:     #6B7A8D;
+    --cc-border:    #E4EAFA;
+    --cc-shadow:    rgba(100, 120, 200, 0.10);
+    --cc-badge-bg:  #EDE8FB;
+    --cc-badge-fg:  #7B6FC4;
+    --cc-transition: background-color .3s, color .3s, border-color .3s, box-shadow .3s;
+}
+
+:root.cloudcraft-dark {
+    --cc-g1:        #82B8F0;
+    --cc-g2:        #C4AEED;
+    --cc-body-bg:   #0F1117;
+    --cc-card-bg:   #1A1D2E;
+    --cc-nav-bg:    #13151F;
+    --cc-text:      #E8EEFA;
+    --cc-muted:     #8892A4;
+    --cc-border:    #252840;
+    --cc-shadow:    rgba(0, 0, 0, 0.35);
+    --cc-badge-bg:  #2A2550;
+    --cc-badge-fg:  #C4AEED;
+}
+
+
+/* ── Global ── */
+body {
+    background-color: var(--cc-body-bg);
+    color: var(--cc-text);
+    transition: var(--cc-transition);
+}
+
+
+/* ── Header / Navbar ── */
+.main-header-bar {
+    background-color: var(--cc-nav-bg) !important;
+    border-bottom: 1px solid var(--cc-border) !important;
+    box-shadow: 0 2px 16px var(--cc-shadow);
+    transition: var(--cc-transition);
+}
+
+/* Logo — gradient text */
+.site-title a,
+.ast-site-identity .site-title a {
+    background: linear-gradient(135deg, var(--cc-g1), var(--cc-g2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transition: opacity .2s;
+}
+
+/* Nav links */
+.main-header-menu .menu-link,
+.main-header-menu .menu-item > a {
+    color: var(--cc-muted) !important;
+    transition: color .2s;
+}
+.main-header-menu .menu-link:hover,
+.main-header-menu .menu-item > a:hover,
+.main-header-menu .current-menu-item > a {
+    color: var(--cc-g1) !important;
+}
+
+
+/* ── Blog post cards ── */
+.ast-article-post {
+    background: var(--cc-card-bg);
+    border: 1px solid var(--cc-border);
+    border-radius: 16px;
+    box-shadow: 0 2px 12px var(--cc-shadow);
+    overflow: hidden;
+    transition: transform .22s ease, box-shadow .22s ease, var(--cc-transition);
+}
+.ast-article-post:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 32px var(--cc-shadow);
+}
+
+/* Post title links */
+.entry-title a {
+    color: var(--cc-text) !important;
+    transition: color .2s;
+}
+.entry-title a:hover {
+    color: var(--cc-g1) !important;
+}
+
+/* Single post — gradient title */
+.single .entry-title,
+.page .entry-title {
+    background: linear-gradient(135deg, var(--cc-g1), var(--cc-g2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Post excerpt & content text */
+.entry-content,
+.entry-summary {
+    color: var(--cc-text);
+}
+
+/* Post meta text */
+.entry-meta,
+.posted-on,
+.posted-by,
+.entry-footer {
+    color: var(--cc-muted) !important;
+    transition: color .3s;
+}
+.entry-meta a,
+.entry-footer a {
+    color: var(--cc-muted) !important;
+}
+.entry-meta a:hover,
+.entry-footer a:hover {
+    color: var(--cc-g1) !important;
+}
+
+
+/* ── Category & tag badges ── */
+.cat-links a,
+.tags-links a,
+.ast-taxonomy-container a {
+    background: var(--cc-badge-bg) !important;
+    color: var(--cc-badge-fg) !important;
+    border-radius: 20px;
+    padding: 3px 12px;
+    font-size: 11px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: background .2s, color .2s, transform .15s;
+}
+.cat-links a:hover,
+.tags-links a:hover,
+.ast-taxonomy-container a:hover {
+    background: linear-gradient(135deg, var(--cc-g1), var(--cc-g2)) !important;
+    color: #fff !important;
+    transform: scale(1.04);
+}
+
+/* Read more */
+.ast-read-more-container a,
+.read-more a {
+    color: var(--cc-g1) !important;
+    font-weight: 600;
+}
+.ast-read-more-container a:hover,
+.read-more a:hover {
+    color: var(--cc-g2) !important;
+}
+
+
+/* ── Sidebar widgets ── */
+#secondary .widget,
+.sidebar .widget {
+    background: var(--cc-card-bg);
+    border: 1px solid var(--cc-border);
+    border-radius: 16px;
+    padding: 22px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 12px var(--cc-shadow);
+    transition: var(--cc-transition);
+}
+#secondary .widget-title,
+.sidebar .widget-title {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    color: var(--cc-muted);
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--cc-border);
+    margin-bottom: 14px;
+    transition: color .3s, border-color .3s;
+}
+#secondary .widget a,
+.sidebar .widget a {
+    color: var(--cc-text);
+    transition: color .2s;
+}
+#secondary .widget a:hover,
+.sidebar .widget a:hover {
+    color: var(--cc-g1);
+}
+
+/* Top Categories widget */
+.cloudcraft-top-cats {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.cloudcraft-top-cats li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cloudcraft-top-cats a {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--cc-text) !important;
+    text-decoration: none;
+}
+.cloudcraft-top-cats a:hover {
+    color: var(--cc-g1) !important;
+}
+.cloudcraft-top-cats .cat-count {
+    background: var(--cc-badge-bg);
+    color: var(--cc-badge-fg);
+    border-radius: 10px;
+    padding: 1px 8px;
+    font-size: 11px;
+    font-weight: 700;
+    transition: background .3s, color .3s;
+}
+
+
+/* ── Section / archive heading accent ── */
+.ast-archive-title,
+.page-header .page-title {
+    background: linear-gradient(135deg, var(--cc-g1), var(--cc-g2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* ── Footer ── */
+.site-footer,
+#colophon,
+.ast-small-footer {
+    background: linear-gradient(135deg, var(--cc-g1) 0%, var(--cc-g2) 100%) !important;
+}
+.cloudcraft-dark .site-footer,
+.cloudcraft-dark #colophon,
+.cloudcraft-dark .ast-small-footer {
+    background: linear-gradient(135deg, #3B6EA8 0%, #6B56A8 100%) !important;
+}
+.site-footer,
+.site-footer a,
+.ast-footer-copyright,
+.ast-footer-copyright a {
+    color: rgba(255, 255, 255, .9) !important;
+}
+
+/* Footer widgets */
+.footer-widget-area {
+    background: var(--cc-card-bg);
+    border-top: 1px solid var(--cc-border);
+    transition: var(--cc-transition);
+}
+
+
+/* ── Dark mode toggle button (injected into Astra header) ── */
+.cc-dm-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: transparent;
+    border: 1.5px solid var(--cc-border);
+    border-radius: 20px;
+    padding: 5px 12px 5px 7px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--cc-muted);
+    transition: border-color .2s, color .2s, background .2s;
+    vertical-align: middle;
+    line-height: 1;
+}
+.cc-dm-btn:hover {
+    border-color: var(--cc-g1);
+    color: var(--cc-g1);
+    background: var(--cc-badge-bg);
+}
+.cc-dm-knob {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--cc-g1), var(--cc-g2));
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    flex-shrink: 0;
+}
+
+
+/* ── Smooth dark-mode transitions on key elements ── */
+.main-header-bar,
+.ast-article-post,
+#secondary .widget,
+.sidebar .widget,
+.footer-widget-area,
+.entry-content,
+input, textarea, select {
+    transition: var(--cc-transition);
+}
+
+/* Inputs in dark mode */
+:root.cloudcraft-dark input,
+:root.cloudcraft-dark textarea,
+:root.cloudcraft-dark select {
+    background: var(--cc-card-bg);
+    color: var(--cc-text);
+    border-color: var(--cc-border);
 }
