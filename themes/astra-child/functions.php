@@ -121,26 +121,33 @@ function cloudcraft_setup_primary_menu() {
 
 // ── 5b. Animated SVG logo ────────────────────────────────────────────────────
 function cloudcraft_logo_svg() {
-    // Gear upper-left (center 16,16), cloud dominant right/center drawn on top.
+    // Gear upper-left (center 16,16): ombre gradient, transparent hole via evenodd, cloud covers lower-right at rest.
     return '<svg class="cc-logo-svg" viewBox="0 0 68 52" width="52" height="40"
             fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+            <linearGradient id="cc-gear-grad" gradientUnits="userSpaceOnUse" x1="2" y1="2" x2="30" y2="30">
+                <stop offset="0%"   stop-color="#74A9E6"/>
+                <stop offset="100%" stop-color="#C4AEED"/>
+            </linearGradient>
+        </defs>
         <g class="cc-logo-gear">
-            <rect x="14" y="2"  width="4" height="5" rx="1.5" fill="#C4AEED" transform="rotate(0   16 16)"/>
-            <rect x="14" y="2"  width="4" height="5" rx="1.5" fill="#C4AEED" transform="rotate(45  16 16)"/>
-            <rect x="14" y="2"  width="4" height="5" rx="1.5" fill="#C4AEED" transform="rotate(90  16 16)"/>
-            <rect x="14" y="2"  width="4" height="5" rx="1.5" fill="#C4AEED" transform="rotate(135 16 16)"/>
-            <rect x="14" y="2"  width="4" height="5" rx="1.5" fill="#C4AEED" transform="rotate(180 16 16)"/>
-            <rect x="14" y="2"  width="4" height="5" rx="1.5" fill="#C4AEED" transform="rotate(225 16 16)"/>
-            <rect x="14" y="2"  width="4" height="5" rx="1.5" fill="#C4AEED" transform="rotate(270 16 16)"/>
-            <rect x="14" y="2"  width="4" height="5" rx="1.5" fill="#C4AEED" transform="rotate(315 16 16)"/>
-            <circle cx="16" cy="16" r="10" fill="#B49FD9"/>
-            <circle cx="16" cy="16" r="5"  fill="white" fill-opacity="0.35"/>
+            <rect x="14" y="2" width="4" height="5" rx="1.5" fill="url(#cc-gear-grad)" transform="rotate(0   16 16)"/>
+            <rect x="14" y="2" width="4" height="5" rx="1.5" fill="url(#cc-gear-grad)" transform="rotate(45  16 16)"/>
+            <rect x="14" y="2" width="4" height="5" rx="1.5" fill="url(#cc-gear-grad)" transform="rotate(90  16 16)"/>
+            <rect x="14" y="2" width="4" height="5" rx="1.5" fill="url(#cc-gear-grad)" transform="rotate(135 16 16)"/>
+            <rect x="14" y="2" width="4" height="5" rx="1.5" fill="url(#cc-gear-grad)" transform="rotate(180 16 16)"/>
+            <rect x="14" y="2" width="4" height="5" rx="1.5" fill="url(#cc-gear-grad)" transform="rotate(225 16 16)"/>
+            <rect x="14" y="2" width="4" height="5" rx="1.5" fill="url(#cc-gear-grad)" transform="rotate(270 16 16)"/>
+            <rect x="14" y="2" width="4" height="5" rx="1.5" fill="url(#cc-gear-grad)" transform="rotate(315 16 16)"/>
+            <path fill-rule="evenodd" fill="url(#cc-gear-grad)"
+                  d="M 26,16 A 10,10 0 1,0 6,16 A 10,10 0 1,0 26,16 Z
+                     M 21,16 A 5,5 0 1,1 11,16 A 5,5 0 1,1 21,16 Z"/>
         </g>
         <g class="cc-logo-cloud">
-            <ellipse cx="28" cy="30" rx="9"  ry="8"  fill="#74A9E6"/>
-            <ellipse cx="42" cy="21" rx="14" ry="12" fill="#74A9E6"/>
-            <ellipse cx="56" cy="27" rx="10" ry="9"  fill="#74A9E6"/>
-            <rect    x="19"  y="29"  width="47" height="18" rx="7" fill="#74A9E6"/>
+            <ellipse cx="23" cy="31" rx="10" ry="9"  fill="#74A9E6"/>
+            <ellipse cx="41" cy="22" rx="15" ry="13" fill="#74A9E6"/>
+            <ellipse cx="57" cy="28" rx="11" ry="9"  fill="#74A9E6"/>
+            <rect    x="13"  y="30"  width="55" height="18" rx="7" fill="#74A9E6"/>
         </g>
     </svg>';
 }
