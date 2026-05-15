@@ -91,18 +91,18 @@ body {
 }
 
 
-/* ── Blog post cards ── */
-.ast-article-post {
-    background: var(--cc-card-bg);
-    border: 1px solid var(--cc-border);
-    border-radius: 16px;
-    box-shadow: 0 2px 12px var(--cc-shadow);
+/* ── Blog post cards — Astra's visual card is .ast-article-inner ── */
+.ast-article-inner {
+    background: var(--cc-card-bg) !important;
+    border: 1px solid var(--cc-border) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 2px 12px var(--cc-shadow) !important;
     overflow: hidden;
-    transition: transform .22s ease, box-shadow .22s ease, var(--cc-transition);
+    transition: transform .22s ease, box-shadow .22s ease, background-color .3s, border-color .3s;
 }
-.ast-article-post:hover {
+.ast-article-inner:hover {
     transform: translateY(-4px);
-    box-shadow: 0 10px 32px var(--cc-shadow);
+    box-shadow: 0 10px 32px var(--cc-shadow) !important;
 }
 
 /* Post title links */
@@ -284,37 +284,41 @@ body {
 }
 
 
-/* ── Dark mode toggle button (injected into Astra header) ── */
+/* ── Dark mode toggle — fixed FAB at bottom-right ── */
 .cc-dm-btn {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 9999;
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    background: transparent;
+    background: var(--cc-nav-bg);
     border: 1.5px solid var(--cc-border);
-    border-radius: 20px;
-    padding: 5px 12px 5px 7px;
+    border-radius: 24px;
+    padding: 8px 14px 8px 9px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
     color: var(--cc-muted);
-    transition: border-color .2s, color .2s, background .2s;
-    vertical-align: middle;
-    line-height: 1;
+    box-shadow: 0 4px 16px var(--cc-shadow);
+    transition: border-color .2s, color .2s, background .2s, box-shadow .2s, transform .2s;
 }
 .cc-dm-btn:hover {
     border-color: var(--cc-g1);
     color: var(--cc-g1);
-    background: var(--cc-badge-bg);
+    box-shadow: 0 6px 24px var(--cc-shadow);
+    transform: translateY(-2px);
 }
 .cc-dm-knob {
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     border-radius: 50%;
     background: linear-gradient(135deg, var(--cc-g1), var(--cc-g2));
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: 11px;
+    font-size: 12px;
     flex-shrink: 0;
 }
 

@@ -288,8 +288,8 @@ function cloudcraft_dark_mode_early_init() {
     <?php
 }
 
-// Toggle button injected into Astra's header custom items area
-add_action( 'astra_masthead_custom_menu_items', 'cloudcraft_dark_mode_toggle' );
+// Toggle button — fixed FAB at bottom-right (astra_masthead_custom_menu_items doesn't exist in Astra 4.x)
+add_action( 'wp_footer', 'cloudcraft_dark_mode_toggle', 5 );
 function cloudcraft_dark_mode_toggle() {
     ?>
     <button class="cc-dm-btn" id="cc-dm-btn" aria-label="<?php esc_attr_e( 'Toggle dark mode', 'astra-child' ); ?>">
