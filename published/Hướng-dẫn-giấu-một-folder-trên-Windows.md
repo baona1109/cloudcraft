@@ -1,7 +1,0 @@
----
-title: "Hướng dẫn giấu một folder trên Windows"
-date: 2017-11-30 11:38:58
-categories: [Windows, Security]
----
-
-Chắc hẳn các bạn đều biết cách để ẩn một folder trên Windows bằng cách tick vào thuộc tính **Hidden** của folder. ![](https://cloudcraft.info/wp-content/uploads/2017/11/huong-dan-giau-mot-folder-tren-windows-1.png) Nhưng liệu như vậy đã đủ an toàn nếu folder của bạn chứa những file nhạy cảm cần được giấu kín (như bài tập về nhà chẳng hạn) trước những người biết thủ thuật show các folder ẩn? Ở bài viết này, tụi mình sẽ hướng dẫn các bạn tăng cường thêm độ bảo mật của các folder ẩn trên Windows bằng cách thêm thuộc tính **System** vào folder. Điều này giúp cho folder của bạn sẽ không hiện lên ngay cả khi bạn cấu hình hiện folder ẩn. ![](https://cloudcraft.info/wp-content/uploads/2017/11/huong-dan-giau-mot-folder-tren-windows-2.png) Để thực hiện điều này, các bạn hãy mở cửa sổ **Command line** bằng cách nhấn tổ hợp phím **Windows + R** , nhập **cmd** ![](https://cloudcraft.info/wp-content/uploads/2017/11/huong-dan-giau-mot-folder-tren-windows-3.png) Sau đó thực hiện lệnh sau: ![](https://cloudcraft.info/wp-content/uploads/2017/11/huong-dan-giau-mot-folder-tren-windows-4.png) Trong đó, "D:\homework" là đường dẫn tới thư mục cần được giấu. Để khôi phục lại folder đã giấu, các bạn thực hiện lệnh sau: ![](https://cloudcraft.info/wp-content/uploads/2017/11/huong-dan-giau-mot-folder-tren-windows-5.png) Các bạn có thể theo dõi video hướng dẫn bên dưới: ﻿﻿﻿ Chúc các bạn thành công!
