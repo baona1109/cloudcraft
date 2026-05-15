@@ -121,27 +121,26 @@ function cloudcraft_setup_primary_menu() {
 
 // ── 5b. Animated SVG logo ────────────────────────────────────────────────────
 function cloudcraft_logo_svg() {
-    return '<svg class="cc-logo-svg" viewBox="0 0 52 40" width="52" height="40"
+    // Gear upper-left (center 16,16), cloud dominant right/center drawn on top.
+    return '<svg class="cc-logo-svg" viewBox="0 0 68 52" width="52" height="40"
             fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <!-- Gear renders first (behind cloud) -->
         <g class="cc-logo-gear">
-            <rect x="33" y="7"  width="6" height="9" rx="2" fill="#C4AEED" transform="rotate(0   36 28)"/>
-            <rect x="33" y="7"  width="6" height="9" rx="2" fill="#C4AEED" transform="rotate(45  36 28)"/>
-            <rect x="33" y="7"  width="6" height="9" rx="2" fill="#C4AEED" transform="rotate(90  36 28)"/>
-            <rect x="33" y="7"  width="6" height="9" rx="2" fill="#C4AEED" transform="rotate(135 36 28)"/>
-            <rect x="33" y="7"  width="6" height="9" rx="2" fill="#C4AEED" transform="rotate(180 36 28)"/>
-            <rect x="33" y="7"  width="6" height="9" rx="2" fill="#C4AEED" transform="rotate(225 36 28)"/>
-            <rect x="33" y="7"  width="6" height="9" rx="2" fill="#C4AEED" transform="rotate(270 36 28)"/>
-            <rect x="33" y="7"  width="6" height="9" rx="2" fill="#C4AEED" transform="rotate(315 36 28)"/>
-            <circle cx="36" cy="28" r="13" fill="#B49FD9"/>
-            <circle cx="36" cy="28" r="5"  fill="white" fill-opacity="0.35"/>
+            <rect x="14" y="2"  width="4" height="5" rx="1.5" fill="#C4AEED" transform="rotate(0   16 16)"/>
+            <rect x="14" y="2"  width="4" height="5" rx="1.5" fill="#C4AEED" transform="rotate(45  16 16)"/>
+            <rect x="14" y="2"  width="4" height="5" rx="1.5" fill="#C4AEED" transform="rotate(90  16 16)"/>
+            <rect x="14" y="2"  width="4" height="5" rx="1.5" fill="#C4AEED" transform="rotate(135 16 16)"/>
+            <rect x="14" y="2"  width="4" height="5" rx="1.5" fill="#C4AEED" transform="rotate(180 16 16)"/>
+            <rect x="14" y="2"  width="4" height="5" rx="1.5" fill="#C4AEED" transform="rotate(225 16 16)"/>
+            <rect x="14" y="2"  width="4" height="5" rx="1.5" fill="#C4AEED" transform="rotate(270 16 16)"/>
+            <rect x="14" y="2"  width="4" height="5" rx="1.5" fill="#C4AEED" transform="rotate(315 16 16)"/>
+            <circle cx="16" cy="16" r="10" fill="#B49FD9"/>
+            <circle cx="16" cy="16" r="5"  fill="white" fill-opacity="0.35"/>
         </g>
-        <!-- Cloud renders second (in front) -->
         <g class="cc-logo-cloud">
-            <ellipse cx="9"  cy="26" rx="7"  ry="6"  fill="#74A9E6"/>
-            <ellipse cx="18" cy="20" rx="10" ry="9"  fill="#74A9E6"/>
-            <ellipse cx="28" cy="24" rx="8"  ry="7"  fill="#74A9E6"/>
-            <rect    x="2"   y="25"  width="34" height="11" rx="4" fill="#74A9E6"/>
+            <ellipse cx="28" cy="30" rx="9"  ry="8"  fill="#74A9E6"/>
+            <ellipse cx="42" cy="21" rx="14" ry="12" fill="#74A9E6"/>
+            <ellipse cx="56" cy="27" rx="10" ry="9"  fill="#74A9E6"/>
+            <rect    x="19"  y="29"  width="47" height="18" rx="7" fill="#74A9E6"/>
         </g>
     </svg>';
 }
