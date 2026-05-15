@@ -34,6 +34,11 @@ function cloudcraft_hide_empty_categories( $thelist, $separator, $parents ) {
 
 // ── 2. Fallback featured image ───────────────────────────────────────────────
 // Chain: featured image → first content image → category default → site logo → site icon
+//
+// NOTE: Astra gates get_the_post_thumbnail() behind has_post_thumbnail(), so the
+// standard post_thumbnail_html filter never fires for posts without a thumbnail.
+// We hook into astra_get_post_thumbnail instead — it fires unconditionally after
+// Astra's block, with $output='' when no thumbnail.
 
 function cloudcraft_get_first_content_image( $post_id ) {
     $content = get_post_field( 'post_content', $post_id );
@@ -43,57 +48,69 @@ function cloudcraft_get_first_content_image( $post_id ) {
     return '';
 }
 
-add_filter( 'post_thumbnail_html', 'cloudcraft_fallback_featured_image', 10, 5 );
-function cloudcraft_fallback_featured_image( $html, $post_id, $post_thumbnail_id, $size, $attr ) {
-    if ( ! empty( $html ) ) {
-        return $html;
+function cloudcraft_get_fallback_image_url( $post_id ) {
+    // First image in post content
+    $url = cloudcraft_get_first_content_image( $post_id );
+    if ( $url ) {
+        return $url;
     }
 
-    $fallback_url = '';
-
-    // First image in post content
-    $fallback_url = cloudcraft_get_first_content_image( $post_id );
-
     // Category default image
-    if ( empty( $fallback_url ) ) {
-        foreach ( get_the_category( $post_id ) as $cat ) {
-            $cat_image_id = get_term_meta( $cat->term_id, 'cloudcraft_cat_image_id', true );
-            if ( $cat_image_id ) {
-                $src = wp_get_attachment_image_url( $cat_image_id, $size );
-                if ( $src ) {
-                    $fallback_url = $src;
-                    break;
-                }
+    foreach ( get_the_category( $post_id ) as $cat ) {
+        $cat_image_id = get_term_meta( $cat->term_id, 'cloudcraft_cat_image_id', true );
+        if ( $cat_image_id ) {
+            $src = wp_get_attachment_image_url( $cat_image_id, 'large' );
+            if ( $src ) {
+                return $src;
             }
         }
     }
 
     // Site logo
-    if ( empty( $fallback_url ) ) {
-        $logo_id = get_theme_mod( 'custom_logo' );
-        if ( $logo_id ) {
-            $src = wp_get_attachment_image_url( $logo_id, $size );
-            if ( $src ) {
-                $fallback_url = $src;
-            }
+    $logo_id = get_theme_mod( 'custom_logo' );
+    if ( $logo_id ) {
+        $src = wp_get_attachment_image_url( $logo_id, 'large' );
+        if ( $src ) {
+            return $src;
         }
     }
 
     // Site icon
-    if ( empty( $fallback_url ) ) {
-        $fallback_url = get_site_icon_url( 512 ) ?: '';
+    return get_site_icon_url( 512 ) ?: '';
+}
+
+add_filter( 'astra_get_post_thumbnail', 'cloudcraft_astra_fallback_thumbnail', 10, 3 );
+function cloudcraft_astra_fallback_thumbnail( $output, $before, $after ) {
+    if ( ! empty( $output ) ) {
+        return $output;
     }
 
-    if ( empty( $fallback_url ) ) {
-        return $html;
+    $post_id = get_the_ID();
+    if ( ! $post_id ) {
+        return $output;
     }
 
-    $alt   = isset( $attr['alt'] ) ? esc_attr( $attr['alt'] ) : esc_attr( get_the_title( $post_id ) );
-    $class = isset( $attr['class'] )
-        ? esc_attr( $attr['class'] )
-        : 'attachment-' . esc_attr( $size ) . ' size-' . esc_attr( $size ) . ' wp-post-image';
+    $fallback_url = cloudcraft_get_fallback_image_url( $post_id );
+    if ( empty( $fallback_url ) ) {
+        return $output;
+    }
 
-    return '<img src="' . esc_url( $fallback_url ) . '" alt="' . $alt . '" class="' . $class . ' cloudcraft-fallback-thumb" />';
+    $post_title = esc_html( get_the_title( $post_id ) );
+    $img = '<img src="' . esc_url( $fallback_url ) . '" alt="' . esc_attr( $post_title ) . '" class="wp-post-image cloudcraft-fallback-thumb" />';
+
+    $inner = '<div class="post-thumb-img-content post-thumb">';
+    if ( ! is_singular() ) {
+        $inner .= '<a href="' . esc_url( get_permalink( $post_id ) ) . '" aria-label="'
+            . esc_attr( sprintf( /* translators: %s: post title */ __( 'Read: %s', 'astra' ), $post_title ) )
+            . '">';
+    }
+    $inner .= $img;
+    if ( ! is_singular() ) {
+        $inner .= '</a>';
+    }
+    $inner .= '</div>';
+
+    return $inner;
 }
 
 
