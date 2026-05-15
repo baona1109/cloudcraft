@@ -20,7 +20,15 @@ function cloudcraft_hide_empty_tags( $tag_list, $before, $sep ) {
 
 add_filter( 'the_category', 'cloudcraft_hide_empty_categories', 10, 3 );
 function cloudcraft_hide_empty_categories( $thelist, $separator, $parents ) {
-    return get_the_category() ? $thelist : '';
+    $cats = get_the_category();
+    if ( empty( $cats ) ) {
+        return '';
+    }
+    // Treat "only Uncategorized" as no real category
+    if ( 1 === count( $cats ) && 'uncategorized' === $cats[0]->slug ) {
+        return '';
+    }
+    return $thelist;
 }
 
 
