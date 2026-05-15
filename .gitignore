@@ -1,4 +1,11 @@
 # no commit cache
 cache/
+uploads/
+.claude/
 debug.log
 *.log
+CLAUDE.md
+.mcp.json
+
+# Added by code-review-graph
+.code-review-graph/

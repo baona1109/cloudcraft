@@ -2,73 +2,53 @@
 /**
  * Astra Child Theme — CloudCraft
  * functions.php
- *
- * Features included:
- *   1. Hide post tags when the post has none (PHP approach — reliable)
- *   2. Fallback featured image: category default → site logo
- *   3. Top Categories by post count widget
  */
 
-// ─────────────────────────────────────────────────────────────────────────────
-// 0. Enqueue parent + child stylesheets
-// ─────────────────────────────────────────────────────────────────────────────
+// ── 0. Enqueue parent + child stylesheets ────────────────────────────────────
 add_action( 'wp_enqueue_scripts', 'cloudcraft_enqueue_styles' );
 function cloudcraft_enqueue_styles() {
-    wp_enqueue_style(
-        'astra-parent-style',
-        get_template_directory_uri() . '/style.css'
-    );
-    wp_enqueue_style(
-        'astra-child-style',
-        get_stylesheet_uri(),
-        array( 'astra-parent-style' )
-    );
+    wp_enqueue_style( 'astra-parent-style', get_template_directory_uri() . '/style.css' );
+    wp_enqueue_style( 'astra-child-style', get_stylesheet_uri(), array( 'astra-parent-style' ) );
 }
 
 
-// ─────────────────────────────────────────────────────────────────────────────
-// 1. Hide tags section when a post has no tags
-//
-//    Astra renders tags via the_tags(). We filter 'the_tags' so that when
-//    a post has no tags the entire tag HTML (including label/wrapper) returns
-//    an empty string instead of a bare label like "Tags:".
-// ─────────────────────────────────────────────────────────────────────────────
+// ── 1. Hide empty tag / category sections ────────────────────────────────────
 add_filter( 'the_tags', 'cloudcraft_hide_empty_tags', 10, 3 );
 function cloudcraft_hide_empty_tags( $tag_list, $before, $sep ) {
-    // get_the_tags() returns false when the post has no tags
-    if ( ! get_the_tags() ) {
-        return '';
-    }
-    return $tag_list;
+    return get_the_tags() ? $tag_list : '';
+}
+
+add_filter( 'the_category', 'cloudcraft_hide_empty_categories', 10, 3 );
+function cloudcraft_hide_empty_categories( $thelist, $separator, $parents ) {
+    return get_the_category() ? $thelist : '';
 }
 
 
-// ─────────────────────────────────────────────────────────────────────────────
-// 2. Fallback featured image
-//
-//    Priority order:
-//      a) Post's own featured image  →  shown as-is (WordPress default)
-//      b) Category default image     →  set via Appearance → Customize
-//         (stored as theme_mod 'cloudcraft_cat_{term_id}_image')
-//      c) Site logo                  →  get_custom_logo() / site icon
-//
-//    We hook into 'post_thumbnail_html'. When it is empty (no featured image)
-//    we build the fallback <img> tag ourselves.
-// ─────────────────────────────────────────────────────────────────────────────
+// ── 2. Fallback featured image ───────────────────────────────────────────────
+// Chain: featured image → first content image → category default → site logo → site icon
+
+function cloudcraft_get_first_content_image( $post_id ) {
+    $content = get_post_field( 'post_content', $post_id );
+    if ( preg_match( '/<img[^>]+src=[\'"]([^\'"]+)[\'"][^>]*/i', $content, $m ) ) {
+        return esc_url( $m[1] );
+    }
+    return '';
+}
+
 add_filter( 'post_thumbnail_html', 'cloudcraft_fallback_featured_image', 10, 5 );
 function cloudcraft_fallback_featured_image( $html, $post_id, $post_thumbnail_id, $size, $attr ) {
-
-    // If the post already has a featured image, do nothing.
     if ( ! empty( $html ) ) {
         return $html;
     }
 
     $fallback_url = '';
 
-    // ── (b) Check for a category-specific default image ──────────────────────
-    $categories = get_the_category( $post_id );
-    if ( ! empty( $categories ) ) {
-        foreach ( $categories as $cat ) {
+    // First image in post content
+    $fallback_url = cloudcraft_get_first_content_image( $post_id );
+
+    // Category default image
+    if ( empty( $fallback_url ) ) {
+        foreach ( get_the_category( $post_id ) as $cat ) {
             $cat_image_id = get_term_meta( $cat->term_id, 'cloudcraft_cat_image_id', true );
             if ( $cat_image_id ) {
                 $src = wp_get_attachment_image_url( $cat_image_id, $size );
@@ -80,7 +60,7 @@ function cloudcraft_fallback_featured_image( $html, $post_id, $post_thumbnail_id
         }
     }
 
-    // ── (c) Fall back to the site logo ───────────────────────────────────────
+    // Site logo
     if ( empty( $fallback_url ) ) {
         $logo_id = get_theme_mod( 'custom_logo' );
         if ( $logo_id ) {
@@ -91,36 +71,32 @@ function cloudcraft_fallback_featured_image( $html, $post_id, $post_thumbnail_id
         }
     }
 
-    // ── (c-alt) Try site icon (favicon) if logo is also missing ──────────────
+    // Site icon
     if ( empty( $fallback_url ) ) {
-        $icon_url = get_site_icon_url( 512 );
-        if ( $icon_url ) {
-            $fallback_url = $icon_url;
-        }
+        $fallback_url = get_site_icon_url( 512 ) ?: '';
     }
 
-    // If we have a fallback URL, build the <img> tag
-    if ( ! empty( $fallback_url ) ) {
-        $alt  = isset( $attr['alt'] ) ? esc_attr( $attr['alt'] ) : esc_attr( get_the_title( $post_id ) );
-        $class = isset( $attr['class'] ) ? esc_attr( $attr['class'] ) : 'attachment-' . esc_attr( $size ) . ' size-' . esc_attr( $size ) . ' wp-post-image';
-        return '<img src="' . esc_url( $fallback_url ) . '" alt="' . $alt . '" class="' . $class . ' cloudcraft-fallback-thumb" />';
+    if ( empty( $fallback_url ) ) {
+        return $html;
     }
 
-    return $html;
+    $alt   = isset( $attr['alt'] ) ? esc_attr( $attr['alt'] ) : esc_attr( get_the_title( $post_id ) );
+    $class = isset( $attr['class'] )
+        ? esc_attr( $attr['class'] )
+        : 'attachment-' . esc_attr( $size ) . ' size-' . esc_attr( $size ) . ' wp-post-image';
+
+    return '<img src="' . esc_url( $fallback_url ) . '" alt="' . $alt . '" class="' . $class . ' cloudcraft-fallback-thumb" />';
 }
 
 
-// ─────────────────────────────────────────────────────────────────────────────
-// 2b. (Optional) Admin UI — add "Category Default Image" field to
-//     Edit Category screen so editors can set per-category fallback images
-//     without touching code.
-// ─────────────────────────────────────────────────────────────────────────────
+// ── 2b. Admin UI — Category Default Image field ──────────────────────────────
 add_action( 'category_add_form_fields',  'cloudcraft_cat_image_field_add' );
 add_action( 'category_edit_form_fields', 'cloudcraft_cat_image_field_edit' );
 add_action( 'created_category',          'cloudcraft_save_cat_image' );
 add_action( 'edited_category',           'cloudcraft_save_cat_image' );
 
 function cloudcraft_cat_image_field_add( $taxonomy ) {
+    wp_nonce_field( 'cloudcraft_cat_image', 'cloudcraft_cat_nonce' );
     ?>
     <div class="form-field">
         <label><?php esc_html_e( 'Default Featured Image', 'astra-child' ); ?></label>
@@ -129,7 +105,7 @@ function cloudcraft_cat_image_field_add( $taxonomy ) {
         <button type="button" class="button" id="cloudcraft-cat-img-btn">
             <?php esc_html_e( 'Upload / Choose Image', 'astra-child' ); ?>
         </button>
-        <p class="description"><?php esc_html_e( 'Shown as featured image for posts in this category that have no image set.', 'astra-child' ); ?></p>
+        <p class="description"><?php esc_html_e( 'Shown as featured image for posts with no image set.', 'astra-child' ); ?></p>
     </div>
     <?php
     cloudcraft_cat_image_admin_script();
@@ -138,6 +114,7 @@ function cloudcraft_cat_image_field_add( $taxonomy ) {
 function cloudcraft_cat_image_field_edit( $term ) {
     $image_id = get_term_meta( $term->term_id, 'cloudcraft_cat_image_id', true );
     $preview  = $image_id ? wp_get_attachment_image_url( $image_id, 'thumbnail' ) : '';
+    wp_nonce_field( 'cloudcraft_cat_image', 'cloudcraft_cat_nonce' );
     ?>
     <tr class="form-field">
         <th scope="row"><label><?php esc_html_e( 'Default Featured Image', 'astra-child' ); ?></label></th>
@@ -149,7 +126,7 @@ function cloudcraft_cat_image_field_edit( $term ) {
             <button type="button" class="button" id="cloudcraft-cat-img-btn">
                 <?php esc_html_e( 'Upload / Choose Image', 'astra-child' ); ?>
             </button>
-            <p class="description"><?php esc_html_e( 'Shown as featured image for posts in this category that have no image set.', 'astra-child' ); ?></p>
+            <p class="description"><?php esc_html_e( 'Shown as featured image for posts with no image set.', 'astra-child' ); ?></p>
         </td>
     </tr>
     <?php
@@ -157,13 +134,22 @@ function cloudcraft_cat_image_field_edit( $term ) {
 }
 
 function cloudcraft_save_cat_image( $term_id ) {
-    if ( isset( $_POST['cloudcraft_cat_image_id'] ) ) {
-        update_term_meta( $term_id, 'cloudcraft_cat_image_id', absint( $_POST['cloudcraft_cat_image_id'] ) );
+    if ( ! isset( $_POST['cloudcraft_cat_nonce'] )
+        || ! wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['cloudcraft_cat_nonce'] ) ), 'cloudcraft_cat_image' )
+        || ! current_user_can( 'manage_categories' )
+    ) {
+        return;
+    }
+
+    $image_id = isset( $_POST['cloudcraft_cat_image_id'] ) ? absint( $_POST['cloudcraft_cat_image_id'] ) : 0;
+    if ( $image_id ) {
+        update_term_meta( $term_id, 'cloudcraft_cat_image_id', $image_id );
+    } else {
+        delete_term_meta( $term_id, 'cloudcraft_cat_image_id' );
     }
 }
 
 function cloudcraft_cat_image_admin_script() {
-    // Enqueue WP media uploader
     wp_enqueue_media();
     ?>
     <script>
@@ -185,15 +171,7 @@ function cloudcraft_cat_image_admin_script() {
 }
 
 
-// ─────────────────────────────────────────────────────────────────────────────
-// 3. Top Categories Widget — shows categories sorted by post count
-//
-//    Register a widget so you can drag it into any sidebar via
-//    Appearance → Widgets.
-//
-//    Alternatively use the shortcode: [cloudcraft_top_categories]
-// ─────────────────────────────────────────────────────────────────────────────
-
+// ── 3. Top Categories Widget ─────────────────────────────────────────────────
 class CloudCraft_Top_Categories_Widget extends WP_Widget {
 
     public function __construct() {
@@ -204,10 +182,9 @@ class CloudCraft_Top_Categories_Widget extends WP_Widget {
         );
     }
 
-    /** Front-end display */
     public function widget( $args, $instance ) {
-        $title  = ! empty( $instance['title'] ) ? $instance['title'] : __( 'Top Categories', 'astra-child' );
-        $number = ! empty( $instance['number'] ) ? absint( $instance['number'] ) : 10;
+        $title      = ! empty( $instance['title'] ) ? $instance['title'] : __( 'Top Categories', 'astra-child' );
+        $number     = ! empty( $instance['number'] ) ? absint( $instance['number'] ) : 10;
         $show_count = ! empty( $instance['show_count'] );
 
         echo $args['before_widget'];
@@ -235,7 +212,6 @@ class CloudCraft_Top_Categories_Widget extends WP_Widget {
         echo $args['after_widget'];
     }
 
-    /** Back-end widget form */
     public function form( $instance ) {
         $title      = ! empty( $instance['title'] ) ? $instance['title'] : __( 'Top Categories', 'astra-child' );
         $number     = ! empty( $instance['number'] ) ? absint( $instance['number'] ) : 10;
@@ -246,7 +222,7 @@ class CloudCraft_Top_Categories_Widget extends WP_Widget {
             <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>" />
         </p>
         <p>
-            <label for="<?php echo $this->get_field_id( 'number' ); ?>"><?php esc_html_e( 'Number of categories to show:', 'astra-child' ); ?></label>
+            <label for="<?php echo $this->get_field_id( 'number' ); ?>"><?php esc_html_e( 'Number of categories:', 'astra-child' ); ?></label>
             <input class="tiny-text" id="<?php echo $this->get_field_id( 'number' ); ?>" name="<?php echo $this->get_field_name( 'number' ); ?>" type="number" step="1" min="1" value="<?php echo esc_attr( $number ); ?>" size="3" />
         </p>
         <p>
@@ -256,13 +232,12 @@ class CloudCraft_Top_Categories_Widget extends WP_Widget {
         <?php
     }
 
-    /** Sanitize widget form values on save */
     public function update( $new_instance, $old_instance ) {
-        $instance               = array();
-        $instance['title']      = sanitize_text_field( $new_instance['title'] );
-        $instance['number']     = absint( $new_instance['number'] );
-        $instance['show_count'] = ! empty( $new_instance['show_count'] ) ? 1 : 0;
-        return $instance;
+        return array(
+            'title'      => sanitize_text_field( $new_instance['title'] ),
+            'number'     => absint( $new_instance['number'] ),
+            'show_count' => ! empty( $new_instance['show_count'] ) ? 1 : 0,
+        );
     }
 }
 
@@ -271,10 +246,7 @@ add_action( 'widgets_init', function() {
 } );
 
 
-// ─────────────────────────────────────────────────────────────────────────────
-// 3b. Shortcode version: [cloudcraft_top_categories number="10" show_count="1"]
-//     Use this inside any page/post via the block editor or classic editor.
-// ─────────────────────────────────────────────────────────────────────────────
+// ── 3b. Shortcode: [cloudcraft_top_categories number="10" show_count="1"] ────
 add_shortcode( 'cloudcraft_top_categories', 'cloudcraft_top_cats_shortcode' );
 function cloudcraft_top_cats_shortcode( $atts ) {
     $atts = shortcode_atts( array(

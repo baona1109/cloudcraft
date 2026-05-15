@@ -10,14 +10,7 @@ Text Domain:  astra-child
 */
 
 /* -----------------------------------------------
-   Inherit all styles from the Astra parent theme
------------------------------------------------ */
-@import url("../astra/style.css");
-
-/* -----------------------------------------------
-   Hide empty tag list on posts that have no tags
-   (Fallback: CSS hides the wrapper when it only
-   contains whitespace / no <a> tags inside)
+   Hide empty tag / category sections (CSS fallback)
 ----------------------------------------------- */
 .tagcloud:empty,
 .tags-links:empty,
