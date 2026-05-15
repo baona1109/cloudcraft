@@ -218,7 +218,7 @@ function cloudcraft_enqueue_styles() {
 // ── 1. Hide empty tag / category sections ────────────────────────────────────
 add_filter( 'the_tags', 'cloudcraft_hide_empty_tags', 10, 3 );
 function cloudcraft_hide_empty_tags( $tag_list, $before, $sep ) {
-    return get_the_tags() ? $tag_list : '';
+    return get_the_tags( get_the_ID() ) ? $tag_list : '';
 }
 
 add_filter( 'the_category', 'cloudcraft_hide_empty_categories', 10, 3 );
@@ -389,7 +389,8 @@ function cloudcraft_cat_image_admin_script() {
                 var attachment = frame.state().get('selection').first().toJSON();
                 $('#cloudcraft_cat_image_id').val(attachment.id);
                 var preview = attachment.sizes && attachment.sizes.thumbnail ? attachment.sizes.thumbnail.url : attachment.url;
-                $('#cloudcraft-cat-img-preview').html('<img src="'+preview+'" style="max-width:150px;" />');
+                var img = $('<img>').attr('src', preview).css('max-width', '150px');
+                $('#cloudcraft-cat-img-preview').empty().append(img);
             });
             frame.open();
         });
@@ -428,7 +429,7 @@ class CloudCraft_Top_Categories_Widget extends WP_Widget {
         if ( ! empty( $categories ) ) {
             echo '<ul class="cloudcraft-top-cats">';
             foreach ( $categories as $cat ) {
-                $count_label = $show_count ? ' <span class="cat-count">(' . $cat->count . ')</span>' : '';
+                $count_label = $show_count ? ' <span class="cat-count">(' . (int) $cat->count . ')</span>' : '';
                 echo '<li><a href="' . esc_url( get_category_link( $cat->term_id ) ) . '">'
                     . esc_html( $cat->name ) . $count_label . '</a></li>';
             }
@@ -476,7 +477,11 @@ add_action( 'widgets_init', function() {
 
 // ── 4. Dark mode toggle ──────────────────────────────────────────────────────
 // Early script prevents flash-of-light before CSS loads
-add_action( 'wp_head', 'cloudcraft_dark_mode_early_init', 1 );
+if ( ! is_admin() ) {
+    add_action( 'wp_head',   'cloudcraft_dark_mode_early_init', 1 );
+    add_action( 'wp_footer', 'cloudcraft_dark_mode_toggle', 5 );
+    add_action( 'wp_footer', 'cloudcraft_dark_mode_script' );
+}
 function cloudcraft_dark_mode_early_init() {
     ?>
     <script>
@@ -491,8 +496,7 @@ function cloudcraft_dark_mode_early_init() {
     <?php
 }
 
-// Toggle button — fixed FAB at bottom-right (astra_masthead_custom_menu_items doesn't exist in Astra 4.x)
-add_action( 'wp_footer', 'cloudcraft_dark_mode_toggle', 5 );
+// Toggle button — fixed FAB at bottom-right
 function cloudcraft_dark_mode_toggle() {
     ?>
     <button class="cc-dm-btn" id="cc-dm-btn" aria-label="<?php esc_attr_e( 'Toggle dark mode', 'astra-child' ); ?>">
@@ -503,7 +507,6 @@ function cloudcraft_dark_mode_toggle() {
 }
 
 // Toggle script — runs at footer so button element exists
-add_action( 'wp_footer', 'cloudcraft_dark_mode_script' );
 function cloudcraft_dark_mode_script() {
     ?>
     <script>
