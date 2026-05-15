@@ -331,6 +331,96 @@ body {
 }
 
 
+/* ── Primary navigation bar (astra_below_header) ── */
+.cc-nav-wrap {
+    width: 100%;
+    background: var(--cc-nav-bg);
+    border-top: 1px solid var(--cc-border);
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(90deg, var(--cc-g1), var(--cc-g2)) 1;
+    transition: var(--cc-transition);
+}
+
+.cc-nav-menu {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 32px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex-wrap: wrap;
+}
+
+.cc-nav-menu > li > a {
+    display: block;
+    padding: 12px 16px;
+    color: var(--cc-muted);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: color .2s, background .2s;
+    white-space: nowrap;
+}
+
+.cc-nav-menu > li > a:hover,
+.cc-nav-menu > li.current-menu-item > a,
+.cc-nav-menu > li.current-menu-ancestor > a {
+    color: var(--cc-g1);
+    background: var(--cc-badge-bg);
+}
+
+/* Dropdown arrow indicator */
+.cc-nav-menu > li.menu-item-has-children > a::after {
+    content: ' ▾';
+    font-size: 10px;
+    opacity: .6;
+}
+
+/* Dropdown submenu */
+.cc-nav-menu > li {
+    position: relative;
+}
+
+.cc-nav-menu .sub-menu {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    background: var(--cc-card-bg);
+    border: 1px solid var(--cc-border);
+    border-radius: 12px;
+    box-shadow: 0 8px 28px var(--cc-shadow);
+    list-style: none;
+    padding: 8px;
+    min-width: 180px;
+    display: none;
+    z-index: 200;
+    transition: var(--cc-transition);
+}
+
+.cc-nav-menu > li:hover > .sub-menu,
+.cc-nav-menu > li:focus-within > .sub-menu {
+    display: block;
+}
+
+.cc-nav-menu .sub-menu a {
+    display: block;
+    padding: 9px 14px;
+    color: var(--cc-text);
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: color .2s, background .2s;
+}
+
+.cc-nav-menu .sub-menu a:hover {
+    color: var(--cc-g1);
+    background: var(--cc-badge-bg);
+}
+
+
 /* ── Hero banner ── */
 .cc-hero {
     background: linear-gradient(135deg, var(--cc-g1) 0%, var(--cc-g2) 100%);

@@ -5,9 +5,9 @@
  */
 
 // ── 5. Primary navigation menu setup (runs once via admin_init) ──────────────
-add_action( 'admin_init', 'cloudcraft_setup_primary_menu' );
+add_action( 'init', 'cloudcraft_setup_primary_menu' );
 function cloudcraft_setup_primary_menu() {
-    if ( get_option( 'cloudcraft_menu_v1' ) ) {
+    if ( get_option( 'cloudcraft_menu_v2' ) ) {
         return;
     }
 
@@ -115,12 +115,32 @@ function cloudcraft_setup_primary_menu() {
     $locations['primary'] = $menu_id;
     set_theme_mod( 'nav_menu_locations', $locations );
 
-    update_option( 'cloudcraft_menu_v1', true );
+    update_option( 'cloudcraft_menu_v2', true );
+}
+
+
+// ── 5b. Primary navigation bar (sticky, inside header wrapper) ───────────────
+add_action( 'astra_below_header', 'cloudcraft_primary_nav' );
+function cloudcraft_primary_nav() {
+    if ( ! has_nav_menu( 'primary' ) ) {
+        return;
+    }
+    echo '<div class="cc-nav-wrap">';
+    wp_nav_menu( array(
+        'theme_location' => 'primary',
+        'menu_class'     => 'cc-nav-menu',
+        'container'      => false,
+        'depth'          => 2,
+        'fallback_cb'    => false,
+    ) );
+    echo '</div>';
 }
 
 
 // ── 6. Hero banner on blog index ─────────────────────────────────────────────
-add_action( 'astra_primary_content_top', 'cloudcraft_hero_banner' );
+// Hooks into astra_content_before which fires AFTER </header> and BEFORE
+// <div id="content">, giving the hero full viewport width above the content grid.
+add_action( 'astra_content_before', 'cloudcraft_hero_banner' );
 function cloudcraft_hero_banner() {
     if ( ! is_home() ) {
         return;
