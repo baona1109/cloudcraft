@@ -324,7 +324,7 @@ body {
 
 
 /* ── Sticky header ── */
-.main-header-bar {
+.site-header {
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -348,6 +348,7 @@ body {
     max-width: 1200px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 2px;
     flex-wrap: wrap;
 }
