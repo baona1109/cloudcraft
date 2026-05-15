@@ -119,21 +119,55 @@ function cloudcraft_setup_primary_menu() {
 }
 
 
-// ── 5b. Primary navigation bar (sticky, inside header wrapper) ───────────────
+// ── 5b. Animated SVG logo ────────────────────────────────────────────────────
+function cloudcraft_logo_svg() {
+    return '<svg class="cc-logo-svg" viewBox="0 0 52 40" width="52" height="40"
+            fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <!-- Gear renders first (behind cloud) -->
+        <g class="cc-logo-gear">
+            <rect x="33" y="7"  width="6" height="9" rx="2" fill="#C4AEED" transform="rotate(0   36 28)"/>
+            <rect x="33" y="7"  width="6" height="9" rx="2" fill="#C4AEED" transform="rotate(45  36 28)"/>
+            <rect x="33" y="7"  width="6" height="9" rx="2" fill="#C4AEED" transform="rotate(90  36 28)"/>
+            <rect x="33" y="7"  width="6" height="9" rx="2" fill="#C4AEED" transform="rotate(135 36 28)"/>
+            <rect x="33" y="7"  width="6" height="9" rx="2" fill="#C4AEED" transform="rotate(180 36 28)"/>
+            <rect x="33" y="7"  width="6" height="9" rx="2" fill="#C4AEED" transform="rotate(225 36 28)"/>
+            <rect x="33" y="7"  width="6" height="9" rx="2" fill="#C4AEED" transform="rotate(270 36 28)"/>
+            <rect x="33" y="7"  width="6" height="9" rx="2" fill="#C4AEED" transform="rotate(315 36 28)"/>
+            <circle cx="36" cy="28" r="13" fill="#B49FD9"/>
+            <circle cx="36" cy="28" r="5"  fill="white" fill-opacity="0.35"/>
+        </g>
+        <!-- Cloud renders second (in front) -->
+        <g class="cc-logo-cloud">
+            <ellipse cx="9"  cy="26" rx="7"  ry="6"  fill="#74A9E6"/>
+            <ellipse cx="18" cy="20" rx="10" ry="9"  fill="#74A9E6"/>
+            <ellipse cx="28" cy="24" rx="8"  ry="7"  fill="#74A9E6"/>
+            <rect    x="2"   y="25"  width="34" height="11" rx="4" fill="#74A9E6"/>
+        </g>
+    </svg>';
+}
+
+// ── 5c. Primary navigation bar (sticky, inside header wrapper) ───────────────
 add_action( 'astra_below_header', 'cloudcraft_primary_nav' );
 function cloudcraft_primary_nav() {
-    if ( ! has_nav_menu( 'primary' ) ) {
-        return;
-    }
-    echo '<div class="cc-nav-wrap">';
-    wp_nav_menu( array(
-        'theme_location' => 'primary',
-        'menu_class'     => 'cc-nav-menu',
-        'container'      => false,
-        'depth'          => 2,
-        'fallback_cb'    => false,
-    ) );
-    echo '</div>';
+    ?>
+    <div class="cc-nav-wrap">
+        <div class="cc-nav-inner">
+            <a class="cc-logo-wrap" href="<?php echo esc_url( home_url( '/' ) ); ?>" aria-label="<?php esc_attr_e( 'CloudCraft home', 'astra-child' ); ?>">
+                <?php echo cloudcraft_logo_svg(); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+                <span class="cc-logo-text">CloudCraft</span>
+            </a>
+            <?php
+            wp_nav_menu( array(
+                'theme_location' => 'primary',
+                'menu_class'     => 'cc-nav-menu',
+                'container'      => false,
+                'depth'          => 2,
+                'fallback_cb'    => false,
+            ) );
+            ?>
+        </div>
+    </div>
+    <?php
 }
 
 
