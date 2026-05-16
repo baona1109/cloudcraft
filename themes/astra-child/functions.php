@@ -171,6 +171,12 @@ function cloudcraft_primary_nav() {
                 'fallback_cb'    => false,
             ) );
             ?>
+            <div class="cc-nav-right">
+                <button class="cc-dm-btn" id="cc-dm-btn" aria-label="<?php esc_attr_e( 'Toggle dark mode', 'astra-child' ); ?>">
+                    <span class="cc-dm-knob" id="cc-dm-knob">🌙</span>
+                    <span id="cc-dm-label"><?php esc_html_e( 'Dark', 'astra-child' ); ?></span>
+                </button>
+            </div>
         </div>
     </div>
     <?php
@@ -479,7 +485,6 @@ add_action( 'widgets_init', function() {
 // Early script prevents flash-of-light before CSS loads
 if ( ! is_admin() ) {
     add_action( 'wp_head',   'cloudcraft_dark_mode_early_init', 1 );
-    add_action( 'wp_footer', 'cloudcraft_dark_mode_toggle', 5 );
     add_action( 'wp_footer', 'cloudcraft_dark_mode_script' );
 }
 function cloudcraft_dark_mode_early_init() {
@@ -493,16 +498,6 @@ function cloudcraft_dark_mode_early_init() {
         }
     })();
     </script>
-    <?php
-}
-
-// Toggle button — fixed FAB at bottom-right
-function cloudcraft_dark_mode_toggle() {
-    ?>
-    <button class="cc-dm-btn" id="cc-dm-btn" aria-label="<?php esc_attr_e( 'Toggle dark mode', 'astra-child' ); ?>">
-        <span class="cc-dm-knob" id="cc-dm-knob">🌙</span>
-        <span id="cc-dm-label"><?php esc_html_e( 'Dark', 'astra-child' ); ?></span>
-    </button>
     <?php
 }
 
@@ -536,6 +531,49 @@ function cloudcraft_dark_mode_script() {
     })();
     </script>
     <?php
+}
+
+
+// ── 8. Table of Contents on single posts ─────────────────────────────────────
+add_filter( 'the_content', 'cloudcraft_toc' );
+function cloudcraft_toc( $content ) {
+    if ( ! is_singular( 'post' ) || is_admin() ) {
+        return $content;
+    }
+
+    preg_match_all( '/<h([23])[^>]*>(.*?)<\/h\1>/is', $content, $matches, PREG_SET_ORDER );
+
+    if ( count( $matches ) < 3 ) {
+        return $content;
+    }
+
+    $toc_items = array();
+    $id_counts = array();
+
+    foreach ( $matches as $m ) {
+        $level    = $m[1];
+        $raw_text = wp_strip_all_tags( $m[2] );
+        $slug     = sanitize_title( $raw_text );
+
+        $id_counts[ $slug ] = isset( $id_counts[ $slug ] ) ? $id_counts[ $slug ] + 1 : 1;
+        $id = $id_counts[ $slug ] > 1 ? $slug . '-' . $id_counts[ $slug ] : $slug;
+
+        $with_id = preg_replace( '/<h' . $level . '([^>]*)>/i', '<h' . $level . '$1 id="' . esc_attr( $id ) . '">', $m[0], 1 );
+        $content = str_replace( $m[0], $with_id, $content );
+
+        $toc_items[] = array( 'level' => (int) $level, 'id' => $id, 'text' => $raw_text );
+    }
+
+    $toc  = '<nav class="cc-toc" aria-label="' . esc_attr__( 'Table of Contents', 'astra-child' ) . '">';
+    $toc .= '<p class="cc-toc-title">' . esc_html__( 'Table of Contents', 'astra-child' ) . '</p>';
+    $toc .= '<ol class="cc-toc-list">';
+    foreach ( $toc_items as $item ) {
+        $extra = 3 === $item['level'] ? ' class="cc-toc-sub"' : '';
+        $toc  .= '<li' . $extra . '><a href="#' . esc_attr( $item['id'] ) . '">' . esc_html( $item['text'] ) . '</a></li>';
+    }
+    $toc .= '</ol></nav>';
+
+    return $toc . $content;
 }
 
 

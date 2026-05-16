@@ -315,31 +315,32 @@ body {
 }
 
 
-/* ── Dark mode toggle — fixed FAB at bottom-right ── */
+/* ── Dark mode toggle — nav header right column ── */
+.cc-nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    grid-column: 3;
+}
+
 .cc-dm-btn {
-    position: fixed;
-    bottom: 24px;
-    right: 24px;
-    z-index: 9999;
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    background: var(--cc-nav-bg);
+    background: var(--cc-badge-bg);
     border: 1.5px solid var(--cc-border);
     border-radius: 24px;
-    padding: 8px 14px 8px 9px;
+    padding: 6px 12px 6px 8px;
     cursor: pointer;
     font-size: 13px;
     font-weight: 600;
     color: var(--cc-muted);
-    box-shadow: 0 4px 16px var(--cc-shadow);
-    transition: border-color .2s, color .2s, background .2s, box-shadow .2s, transform .2s;
+    transition: border-color .2s, color .2s, background .2s;
 }
 .cc-dm-btn:hover {
     border-color: var(--cc-g1);
     color: var(--cc-g1);
-    box-shadow: 0 6px 24px var(--cc-shadow);
-    transform: translateY(-2px);
+    background: var(--cc-card-bg);
 }
 .cc-dm-knob {
     width: 22px;
@@ -548,6 +549,22 @@ body {
 }
 
 
+/* ── Fix: ensure post and sidebar backgrounds respond to dark↔light toggle ── */
+#primary,
+.content-area,
+.ast-article-single,
+.hentry,
+article.type-post {
+    background-color: var(--cc-body-bg) !important;
+    transition: var(--cc-transition);
+}
+
+#secondary,
+.widget-area {
+    background-color: transparent !important;
+}
+
+
 /* ── Smooth dark-mode transitions on key elements ── */
 .main-header-bar,
 .ast-article-post,
@@ -566,6 +583,62 @@ input, textarea, select {
     background: var(--cc-card-bg);
     color: var(--cc-text);
     border-color: var(--cc-border);
+}
+
+
+/* ── Table of Contents ── */
+html {
+    scroll-behavior: smooth;
+}
+
+.cc-toc {
+    background: var(--cc-card-bg);
+    border: 1px solid var(--cc-border);
+    border-left: 3px solid transparent;
+    border-image: linear-gradient(180deg, var(--cc-g1), var(--cc-g2)) 1;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 32px;
+    transition: var(--cc-transition);
+}
+.cc-toc-title {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    color: var(--cc-muted);
+    margin: 0 0 12px;
+    transition: color .3s;
+}
+.cc-toc-list {
+    margin: 0;
+    padding-left: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.cc-toc-list li {
+    font-size: 14px;
+    line-height: 1.5;
+}
+.cc-toc-list li.cc-toc-sub {
+    padding-left: 14px;
+    list-style-type: none;
+    position: relative;
+}
+.cc-toc-list li.cc-toc-sub::before {
+    content: '\2013';
+    position: absolute;
+    left: 2px;
+    color: var(--cc-muted);
+}
+.cc-toc-list a {
+    color: var(--cc-text);
+    text-decoration: none;
+    transition: color .2s;
+}
+.cc-toc-list a:hover {
+    color: var(--cc-g1);
 }
 
 
