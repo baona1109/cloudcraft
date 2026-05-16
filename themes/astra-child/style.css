@@ -460,23 +460,29 @@ body {
 
 .cc-nav-menu .sub-menu {
     position: absolute;
-    top: calc(100% + 4px);
+    top: 100%;
     left: 0;
     background: var(--cc-card-bg);
     border: 1px solid var(--cc-border);
     border-radius: 12px;
     box-shadow: 0 8px 28px var(--cc-shadow);
     list-style: none;
-    padding: 8px;
+    padding: 12px 8px 8px;  /* extra top padding bridges the gap */
     min-width: 180px;
-    display: none;
     z-index: 200;
-    transition: var(--cc-transition);
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .15s ease, visibility .15s ease, background-color .3s, border-color .3s;
+    transition-delay: .18s;  /* close delay so mouse can reach submenu */
 }
 
 .cc-nav-menu > li:hover > .sub-menu,
 .cc-nav-menu > li:focus-within > .sub-menu {
-    display: block;
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+    transition-delay: 0s;  /* open immediately */
 }
 
 .cc-nav-menu .sub-menu a {
