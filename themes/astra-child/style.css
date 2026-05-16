@@ -184,7 +184,7 @@ body {
 /* ── Sidebar widgets ── */
 #secondary .widget,
 .sidebar .widget {
-    background: var(--cc-card-bg);
+    background: var(--cc-card-bg) !important;
     border: 1px solid var(--cc-border);
     border-radius: 16px;
     padding: 22px;
@@ -583,62 +583,6 @@ input, textarea, select {
     background: var(--cc-card-bg);
     color: var(--cc-text);
     border-color: var(--cc-border);
-}
-
-
-/* ── Table of Contents ── */
-html {
-    scroll-behavior: smooth;
-}
-
-.cc-toc {
-    background: var(--cc-card-bg);
-    border: 1px solid var(--cc-border);
-    border-left: 3px solid transparent;
-    border-image: linear-gradient(180deg, var(--cc-g1), var(--cc-g2)) 1;
-    border-radius: 12px;
-    padding: 20px 24px;
-    margin-bottom: 32px;
-    transition: var(--cc-transition);
-}
-.cc-toc-title {
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: .8px;
-    color: var(--cc-muted);
-    margin: 0 0 12px;
-    transition: color .3s;
-}
-.cc-toc-list {
-    margin: 0;
-    padding-left: 18px;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-}
-.cc-toc-list li {
-    font-size: 14px;
-    line-height: 1.5;
-}
-.cc-toc-list li.cc-toc-sub {
-    padding-left: 14px;
-    list-style-type: none;
-    position: relative;
-}
-.cc-toc-list li.cc-toc-sub::before {
-    content: '\2013';
-    position: absolute;
-    left: 2px;
-    color: var(--cc-muted);
-}
-.cc-toc-list a {
-    color: var(--cc-text);
-    text-decoration: none;
-    transition: color .2s;
-}
-.cc-toc-list a:hover {
-    color: var(--cc-g1);
 }
 
 
