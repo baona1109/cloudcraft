@@ -461,7 +461,8 @@ body {
 .cc-nav-menu .sub-menu {
     position: absolute;
     top: 100%;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     background: var(--cc-card-bg);
     border: 1px solid var(--cc-border);
     border-radius: 12px;
