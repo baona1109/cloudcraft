@@ -214,6 +214,37 @@ body {
     color: var(--cc-g1);
 }
 
+/* Sidebar area — sticky + visual separation */
+@media (min-width: 769px) {
+    #secondary,
+    .sidebar-area {
+        position: sticky;
+        top: 90px;
+        max-height: calc(100vh - 100px);
+        overflow-y: auto;
+        scrollbar-width: none;
+    }
+    #secondary::-webkit-scrollbar,
+    .sidebar-area::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+#secondary,
+.sidebar-area {
+    border-left: 3px solid transparent;
+    border-image: linear-gradient(180deg, var(--cc-g1), var(--cc-g2)) 1;
+    padding-left: 8px;
+    background: rgba(116, 169, 230, 0.03);
+    transition: var(--cc-transition);
+}
+
+:root.cloudcraft-dark #secondary,
+:root.cloudcraft-dark .sidebar-area {
+    background: rgba(130, 184, 240, 0.04);
+}
+
+
 /* Top Categories widget */
 .cloudcraft-top-cats {
     list-style: none;

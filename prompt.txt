@@ -25,13 +25,11 @@ https://devopscube.com/
 https://www.tecmint.com/
 https://artificialcorner.com/
 
-The website is kind of blank and boring at the moment.
-The primary colors of the page is blue and white, and I like the ombre style and pastel tone.
+The website is wokring fine and slightly customized by you in last session.
+The primary colors of the page is blue, and I like the ombre style and pastel tone.
 
 ---
 
 # REQUIREMENT
-I want to add following features:
-1 — Hide empty tags: Hide the category/tag of the post if it doesn't have any.
-2 — Fallback featured image: If the post doesn't have featured image, fall back in this order: post's own image → category default image → site logo → site icon.
-3 — Top Categories widget + shortcode: Auto-detect and show top categories by post count
+Review the page and make the plan on what could be improved to make it better.
+Review your plan twice to spot potential issues and bugs.
