@@ -31,5 +31,8 @@ The primary colors of the page is blue, and I like the ombre style and pastel to
 ---
 
 # REQUIREMENT
-Review the page and make the plan on what could be improved to make it better.
-Review your plan twice to spot potential issues and bugs.
+I want to use some API to upload images and posts, such as:
+/wp-json/wp/v2/media
+/wp-json/wp/v2/posts
+but seems like we haven't enable the REST API to use Application Passwords in functions.php
+can you check and enable it?

@@ -567,3 +567,6 @@ function cloudcraft_top_cats_shortcode( $atts ) {
     echo '</ul>';
     return ob_get_clean();
 }
+
+// ── REST API: Enable Application Passwords ────────────────────────────────────
+add_filter( 'wp_is_application_passwords_available', '__return_true' );
